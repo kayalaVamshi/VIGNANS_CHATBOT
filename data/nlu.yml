@@ -1,0 +1,1805 @@
+version: "3.1"
+
+nlu:
+- intent: ask_contact_phone
+  examples: |
+    - What is the contact number of VIIT?
+    - Phone number please
+    - Can I get the telephone number?
+
+- intent: ask_contact_email
+  examples: |
+    - What is VIIT's email address?
+    - Email ID of the college?
+    - How can I email the administration?
+
+- intent: ask_contact_address
+  examples: |
+    - What is the address of VIIT?
+    - Give me the full address of the college
+    - Where is VIIT located?
+
+- intent: ask_contact_location
+  examples: |
+    - Where is the college located?
+    - Location of VIIT?
+    - VIIT address map?
+
+
+
+- intent: ask_chairman_name
+  examples: |
+    - Who is the chairman of VIIT?
+    - Tell me the name of VIIT's chairman
+    - Chairman of the college?
+
+- intent: ask_chairman_vision
+  examples: |
+    - What is the chairman's vision?
+    - Vision of VIIT chairman?
+    - What does chairman aim for?
+
+- intent: ask_chairman_concerns
+  examples: |
+    - What concerns does the chairman have?
+    - What are the chairman's views on education?
+    - What is the chairman worried about in education?
+
+- intent: ask_viit_approach
+  examples: |
+    - What is VIIT's approach to education?
+    - How is VIIT improving education?
+    - VIIT's education methods?
+
+- intent: ask_education_reforms
+  examples: |
+    - Why are reforms needed in education?
+    - What does chairman say about education reforms?
+    - Is education reform necessary?
+
+- intent: ask_ap_colleges
+  examples: |
+    - What does the chairman say about Andhra Pradesh engineering colleges?
+    - Views on AP engineering education?
+    - Are AP colleges producing skilled engineers?
+
+- intent: ask_chairman_message
+  examples: |
+    - What is the chairman's message for students?
+    - What does he say to students?
+    - Chairman's final message?
+
+
+
+- intent: ask_courses_offered
+  examples: |
+    - What are the courses offered at VIIT?
+    - Tell me about the available B.Tech programs.
+    - List the engineering branches at VIIT.
+    - What engineering disciplines are available?
+    - Can you give me a list of courses at VIIT?
+
+- intent: ask_cse_specializations
+  examples: |
+    - What specializations are available in CSE?
+    - Is there Artificial Intelligence in CSE?
+    - Do you offer CSE with Data Science?
+    - What are the CSE branches available?
+
+- intent: ask_course_duration
+  examples: |
+    - What is the duration of B.Tech courses?
+    - How many years does B.Tech take?
+    - Course duration for engineering?
+
+- intent: ask_course_updates
+  examples: |
+    - Are there any new branches added?
+    - What are the latest courses introduced?
+    - Any updates in course offerings?
+
+- intent: ask_course_comparison
+  examples: |
+    - Which is better, CSE or IT?
+    - Should I choose ECE or EEE?
+    - Which branch has better placements?
+
+- intent: ask_course_seats
+  examples: |
+    - How many seats are there in CSE?
+    - What is the intake for Mechanical Engineering?
+    - Seat availability in Civil branch?
+
+- intent: ask_courses
+  examples: |
+    - What courses does VIIT offer?
+    - List the B.Tech courses available
+    - Tell me about M.Tech programs
+    - What are the PG programs?
+    - Which undergraduate programs are offered?
+    - What postgraduate courses can I join?
+    - Do you offer MBA?
+    - Is MCA available at VIIT?
+    - Provide course details
+    - What are the courses and intakes for 2025?
+    - Course wise intake?  
+
+
+
+
+# 1. Admission Policy (10+ examples)
+- intent: query_admission_policy
+  examples: |
+    - What is the admission policy of VIIT?
+    - How does Vignan's select students for UG programs?
+    - Explain the criteria for admission at Vignan's.
+    - What are the eligibility conditions for admission?
+    - Is merit the only factor for admission?
+    - Does VIIT consider extracurricular activities for admission?
+    - How are candidates evaluated for PG courses?
+    - What is the admission process based on?
+    - Are there any reservations in the admission policy?
+    - How competitive is admission to VIIT?
+    - Tell me about the selection process for M.Tech.
+    - What weightage is given to entrance exams?
+
+# 2. Seat Allocation (10+ examples)
+- intent: query_seat_allocation
+  examples: |
+    - How are seats distributed between Category-A and B?
+    - What percentage of seats are under government quota?
+    - Explain the difference between Category-A and Category-B seats.
+    - How many seats are filled by APSCHE?
+    - Is there a management quota at VIIT?
+    - What is the ratio of Category-A to Category-B seats?
+    - Can I apply under both categories?
+    - How are Category-B seats allocated?
+    - Who controls the 70% seats in Category-A?
+    - Are Category-B seats merit-based?
+    - What entrance exams are valid for Category-A?
+    - Is there a cap on Category-B admissions?
+
+# 3. Reservation Stats (10+ examples)
+- intent: query_reservation_stats
+  examples: |
+    - Show me SC/ST/OBC reservation data for 2022.
+    - What percentage of seats are reserved for OBC?
+    - How many ST students were admitted last year?
+    - Give me the reservation breakdown for 2021-22.
+    - Compare reserved seats vs admitted seats for SC.
+    - Historical data on reservation categories.
+    - Were all reserved seats filled in 2020?
+    - How many General category seats are there?
+    - What’s the trend in OBC admissions over 5 years?
+    - Show unfilled reserved seats for ST.
+    - Is there a difference in reservation for UG vs PG?
+    - Detailed reservation stats by year.
+
+# 4. Admission Process (10+ examples)
+- intent: query_admission_process
+  examples: |
+    - Step-by-step admission process for UG courses.
+    - How to apply under Category-B for MBA?
+    - Documents needed for admission at VIIT.
+    - What is the fee payment process after selection?
+    - How are shortlisted candidates notified?
+    - Is there an interview round for MCA?
+    - Timeline for APSCHE counseling.
+    - Can I apply offline for Category-B?
+    - Where to submit the admission form?
+    - How to check my admission status?
+    - What happens after fee payment?
+    - Verification process for certificates.
+
+
+- intent: ask_vision
+  examples: |
+    - What is the vision of VIIT?
+    - Can you tell me the vision of the institute?
+    - What's your college's vision?
+    - VIIT vision?
+    - Future goal of VIIT?
+    - What does VIIT aim to achieve?
+
+- intent: ask_mission
+  examples: |
+    - What is the mission of VIIT?
+    - Can you share the mission statement?
+    - What's your mission?
+    - Mission of the institute?
+    - Objectives of VIIT?
+    - College mission goals?
+
+
+- intent: ask_ceo_name
+  examples: |
+    - Who is the CEO of VIIT?
+    - What is the name of VIIT CEO?
+    - Tell me about VIIT's CEO
+    - Who heads VIIT as CEO?
+
+- intent: ask_ceo_message
+  examples: |
+    - What is the message from the CEO?
+    - CEO's message for students?
+    - What does the CEO say about VIIT?
+    - Give me the welcome note by CEO
+    - What are the CEO’s thoughts?
+
+
+
+- intent: ask_rector_name
+  examples: |
+    - Who is the rector of VIIT?
+    - Tell me the name of the rector
+    - What is the name of VIIT's rector?
+
+- intent: ask_rector_message
+  examples: |
+    - What is the rector's message?
+    - Message from the rector?
+    - What does the rector say to students?
+    - Welcome note from the rector?
+
+
+
+
+- intent: ask_principal
+  examples: |
+    - Who is the principal of VIIT?
+    - Tell me about Dr. Sudhakar Jyothula
+    - Can you give details about the principal?
+    - Who leads VIIT?
+    - Information about VIIT's principal
+    - What did the principal do during COVID?
+
+- intent: ask_vision_mission
+  examples: |
+    - What is the vision of VIIT?
+    - Tell me about VIIT's mission
+    - What are the goals of VIIT?
+    - Can you explain VIIT's vision and mission?
+    - What does VIIT aim to achieve?
+    - Tell me about the institute's objectives
+
+- intent: ask_infrastructure
+  examples: |
+    - What facilities does VIIT have?
+    - Tell me about VIIT's infrastructure
+    - What is the campus like at VIIT?
+    - Can you describe VIIT's labs and library?
+    - What kind of classrooms does VIIT have?
+    - Tell me about the computer center at VIIT
+
+- intent: ask_policies
+  examples: |
+    - What are VIIT's policies?
+    - Tell me about the Adjunct Faculty Policy
+    - What is the Infrastructure Maintenance Policy at VIIT?
+    - Can you explain VIIT's best practices?
+    - What are the staff welfare policies at VIIT?
+    - Tell me about VIIT's administrative policies
+
+- intent: ask_awards
+  examples: |
+    - What awards has VIIT received?
+    - Tell me about VIIT's accolades
+    - Has VIIT won any recognition?
+    - What are VIIT's achievements?
+    - Can you list VIIT's awards?
+    - Tell me about the institute's placement record
+
+
+- intent: ask_ceo
+  examples: |
+    - Who is the CEO?
+    - Tell me about the Chief Executive Officer
+    - Who is the Chief Executive Officer at VIIT?
+    - Who's in charge as CEO?
+    - Details about VIIT's CEO
+
+- intent: ask_rector
+  examples: |
+    - Who is the Rector?
+    - Tell me about the Rector at VIIT
+    - Who's the Rector of VIIT?
+    - Details about the Rector
+    - Who serves as Rector?
+
+- intent: ask_principal
+  examples: |
+    - Who is the Principal?
+    - Tell me about the Principal of VIIT
+    - Who's the Principal at VIIT?
+    - Details about the Principal
+    - Who leads VIIT as Principal?
+
+- intent: ask_dean_administration
+  examples: |
+    - Who is the Dean Administration?
+    - Tell me about the Dean of Administration
+    - Who's the Dean Administration at VIIT?
+    - Details about the Dean Administration
+    - Who handles administration as Dean?
+
+- intent: ask_dean_iqac
+  examples: |
+    - Who is the Dean-IQAC?
+    - Tell me about the Dean of IQAC
+    - Who's the Dean-IQAC at VIIT?
+    - Details about the Dean-IQAC
+    - Who is the Dean for IQAC?
+
+- intent: ask_dean_academics
+  examples: |
+    - Who is the Dean?
+    - Tell me about the Dean of Academics
+    - Who's the Dean Academics at VIIT?
+    - Details about the Dean Academics
+    - Who handles academics as Dean?
+
+- intent: ask_dean_evaluation
+  examples: |
+    - Who is the Dean Evaluation?
+    - Tell me about the Dean of Evaluation
+    - Who's the Dean Evaluation at VIIT?
+    - Details about the Dean Evaluation
+    - Who is the Dean for Evaluation?
+
+- intent: ask_dean_admissions
+  examples: |
+    - Who is the Dean Admissions?
+    - Tell me about the Dean of Admissions
+    - Who's the Dean Admissions at VIIT?
+    - Details about the Dean Admissions
+    - Who handles admissions as Dean?
+
+- intent: ask_dean_placement
+  examples: |
+    - Who is the Dean Placement?
+    - Tell me about the Dean of Placement and Training
+    - Who's the Dean Placement at VIIT?
+    - Details about the Dean Placement
+    - Who is the Dean for Placement and Training?
+
+- intent: ask_dean_faculty_affairs
+  examples: |
+    - Who is the Dean Faculty Affairs?
+    - Tell me about the Dean of Faculty Affairs
+    - Who's the Dean Faculty Affairs at VIIT?
+    - Details about the Dean Faculty Affairs
+    - Who handles faculty affairs as Dean?
+
+- intent: ask_dean_research
+  examples: |
+    - Who is the Dean Research?
+    - Tell me about the Dean of Research and Development
+    - Who's the Dean Research at VIIT?
+    - Details about the Dean Research
+    - Who is the Dean for Research and Development?
+
+- intent: ask_dean_international
+  examples: |
+    - Who is the Dean International?
+    - Tell me about the Dean of International Student Affairs
+    - Who's the Dean International at VIIT?
+    - Details about the Dean International
+    - Who handles international student affairs as Dean?
+
+- intent: ask_dean_industry
+  examples: |
+    - Who is the Dean Industry?
+    - Tell me about the Dean of Industry Relations
+    - Who's the Dean Industry at VIIT?
+    - Details about the Dean Industry
+    - Who is the Dean for Industry Relations?
+
+- intent: ask_dean_student_affairs
+  examples: |
+    - Who is the Dean Student Affairs?
+    - Tell me about the Dean of Student Affairs
+    - Who's the Dean Student Affairs at VIIT?
+    - Details about the Dean Student Affairs
+    - Who handles student affairs as Dean?
+
+- intent: ask_associate_dean_infrastructure
+  examples: |
+    - Who is the Associate Dean Infrastructure?
+    - Tell me about the Associate Dean of Infrastructure
+    - Who's the Associate Dean Infrastructure at VIIT?
+    - Details about the Associate Dean Infrastructure
+    - Who is the Associate Dean for Infrastructure?
+
+
+- intent: ask_aicte_2024_25
+  examples: |
+    - What is the AICTE approval for 2024-25?
+    - Is VIIT approved by AICTE for 2024-25?
+    - Tell me about AICTE approval 2024-25
+    - VIIT AICTE status for 2024-25
+    - Does VIIT have AICTE approval for 2024?
+
+- intent: ask_aicte_2023_24
+  examples: |
+    - What is the AICTE approval for 2023-24?
+    - Is VIIT approved by AICTE for 2023-24?
+    - Tell me about AICTE approval 2023-24
+    - VIIT AICTE status for 2023-24
+    - Was VIIT approved by AICTE in 2023?
+
+- intent: ask_aicte_2022_23
+  examples: |
+    - What is the AICTE approval for 2022-23?
+    - Is VIIT approved by AICTE for 2022-23?
+    - Tell me about AICTE approval 2022-23
+    - VIIT AICTE status for 2022-23
+    - Did VIIT have AICTE approval in 2022?
+
+- intent: ask_aicte_2021_22
+  examples: |
+    - What is the AICTE approval for 2021-22?
+    - Is VIIT approved by AICTE for 2021-22?
+    - Tell me about AICTE approval 2021-22
+    - VIIT AICTE status for 2021-22
+    - Was VIIT approved by AICTE in 2021?
+
+- intent: ask_aicte_2020_21
+  examples: |
+    - What is the AICTE approval for 2020-21?
+    - Is VIIT approved by AICTE for 2020-21?
+    - Tell me about AICTE approval 2020-21
+    - VIIT AICTE status for 2020-21
+    - Did VIIT have AICTE approval in 2020?
+
+- intent: ask_aicte_2019_20
+  examples: |
+    - What is the AICTE approval for 2019-20?
+    - Is VIIT approved by AICTE for 2019-20?
+    - Tell me about AICTE approval 2019-20
+    - VIIT AICTE status for 2019-20
+    - Was VIIT approved by AICTE in 2019?
+
+- intent: ask_aicte_2018_19
+  examples: |
+    - What is the AICTE approval for 2018-19?
+    - Is VIIT approved by AICTE for 2018-19?
+    - Tell me about AICTE approval 2018-19
+    - VIIT AICTE status for 2018-19
+    - Did VIIT have AICTE approval in 2018?
+
+- intent: ask_jntuk_affiliation_2019_20
+  examples: |
+    - What is the JNTUK affiliation for 2019-20?
+    - Is VIIT affiliated with JNTUK for 2019-20?
+    - Tell me about JNTUK permanent affiliation 2019-20
+    - VIIT JNTUK affiliation status for 2019-20
+    - Was VIIT affiliated with JNTUK in 2019?
+
+- intent: ask_jntuk_affiliation_2012_23
+  examples: |
+    - What is the JNTUK affiliation from 2012 to 2023?
+    - Is VIIT permanently affiliated with JNTUK for 2012-23?
+    - Tell me about JNTUK permanent affiliation 2012-23
+    - VIIT JNTUK affiliation status for 2012-23
+    - Did VIIT have JNTUK affiliation from 2012 to 2023?
+
+- intent: ask_ugc_autonomous_2017
+  examples: |
+    - What is the UGC autonomous status for 2017?
+    - Is VIIT autonomous per UGC in 2017?
+    - Tell me about UGC autonomous status 2017
+    - VIIT UGC autonomous status for 2017
+    - Was VIIT granted UGC autonomy in 2017?
+
+- intent: ask_ugc_autonomous_2024
+  examples: |
+    - What is the UGC autonomous status for 2024?
+    - Is VIIT autonomous per UGC in 2024?
+    - Tell me about UGC autonomous status 2024
+    - VIIT UGC autonomous status for 2024
+    - Did VIIT receive UGC autonomy in 2024?
+
+- intent: ask_jntugv_research_ce_2023_25
+  examples: |
+    - What is the JNTUGV research center for Civil Engineering 2023-25?
+    - Is VIIT a JNTUGV research center for CE in 2023-25?
+    - Tell me about JNTUGV research center CE 2023-25
+    - VIIT JNTUGV research status for Civil Engineering 2023-25
+    - Does VIIT have a JNTUGV research center for CE?
+
+- intent: ask_jntugv_research_cse_2023_25
+  examples: |
+    - What is the JNTUGV research center for Computer Science 2023-25?
+    - Is VIIT a JNTUGV research center for CSE in 2023-25?
+    - Tell me about JNTUGV research center CSE 2023-25
+    - VIIT JNTUGV research status for Computer Science 2023-25
+    - Does VIIT have a JNTUGV research center for CSE?
+
+- intent: ask_jntugv_research_ece_2023_25
+  examples: |
+    - What is the JNTUGV research center for Electronics 2023-25?
+    - Is VIIT a JNTUGV research center for ECE in 2023-25?
+    - Tell me about JNTUGV research center ECE 2023-25
+    - VIIT JNTUGV research status for Electronics 2023-25
+    - Does VIIT have a JNTUGV research center for ECE?
+
+- intent: ask_jntugv_research_eee_2023_25
+  examples: |
+    - What is the JNTUGV research center for Electrical Engineering 2023-25?
+    - Is VIIT a JNTUGV research center for EEE in 2023-25?
+    - Tell me about JNTUGV research center EEE 2023-25
+    - VIIT JNTUGV research status for Electrical Engineering 2023-25
+    - Does VIIT have a JNTUGV research center for EEE?
+
+- intent: ask_jntugv_research_mech_2023_25
+  examples: |
+    - What is the JNTUGV research center for Mechanical Engineering 2023-25?
+    - Is VIIT a JNTUGV research center for MECH in 2023-25?
+    - Tell me about JNTUGV research center MECH 2023-25
+    - VIIT JNTUGV research status for Mechanical Engineering 2023-25
+    - Does VIIT have a JNTUGV research center for MECH?
+
+- intent: ask_jntugv_research_mba_2023_25
+  examples: |
+    - What is the JNTUGV research center for MBA 2023-25?
+    - Is VIIT a JNTUGV research center for MBA in 2023-25?
+    - Tell me about JNTUGV research center MBA 2023-25
+    - VIIT JNTUGV research status for MBA 2023-25
+    - Does VIIT have a JNTUGV research center for MBA?
+
+- intent: ask_jntuk_research_cse_2016_17
+  examples: |
+    - What is the JNTUK research center for Computer Science 2016-17?
+    - Was VIIT a JNTUK research center for CSE in 2016-17?
+    - Tell me about JNTUK research center CSE 2016-17
+    - VIIT JNTUK research status for Computer Science 2016-17
+    - Did VIIT have a JNTUK research center for CSE in 2016?
+
+- intent: ask_jntuk_research_mech_2016_17
+  examples: |
+    - What is the JNTUK research center for Mechanical Engineering 2016-17?
+    - Was VIIT a JNTUK research center for MECH in 2016-17?
+    - Tell me about JNTUK research center MECH 2016-17
+    - VIIT JNTUK research status for Mechanical Engineering 2016-17
+    - Did VIIT have a JNTUK research center for MECH in 2016?
+
+- intent: ask_jntuk_research_ece_2017_18
+  examples: |
+    - What is the JNTUK research center for Electronics 2017-18?
+    - Was VIIT a JNTUK research center for ECE in 2017-18?
+    - Tell me about JNTUK research center ECE 2017-18
+    - VIIT JNTUK research status for Electronics 2017-18
+    - Did VIIT have a JNTUK research center for ECE in 2017?
+
+- intent: ask_jntuk_research_cse_2018_19
+  examples: |
+    - What is the JNTUK research center for Computer Science 2018-19?
+    - Was VIIT a JNTUK research center for CSE in 2018-19?
+    - Tell me about JNTUK research center CSE 2018-19
+    - VIIT JNTUK research status for Computer Science 2018-19
+    - Did VIIT have a JNTUK research center for CSE in 2018?
+
+- intent: ask_jntuk_research_eee_2018_19
+  examples: |
+    - What is the JNTUK research center for Electrical Engineering 2018-19?
+    - Was VIIT a JNTUK research center for EEE in 2018-19?
+    - Tell me about JNTUK research center EEE 2018-19
+    - VIIT JNTUK research status for Electrical Engineering 2018-19
+    - Did VIIT have a JNTUK research center for EEE in 2018?
+
+- intent: ask_jntuk_research_mba_2018_19
+  examples: |
+    - What is the JNTUK research center for MBA 2018-19?
+    - Was VIIT a JNTUK research center for MBA in 2018-19?
+    - Tell me about JNTUK research center MBA 2018-19
+    - VIIT JNTUK research status for MBA 2018-19
+    - Did VIIT have a JNTUK research center for MBA in 2018?
+
+- intent: ask_jntuk_research_ece_2019_20
+  examples: |
+    - What is the JNTUK research center for Electronics 2019-20?
+    - Was VIIT a JNTUK research center for ECE in 2019-20?
+    - Tell me about JNTUK research center ECE 2019-20
+    - VIIT JNTUK research status for Electronics 2019-20
+    - Did VIIT have a JNTUK research center for ECE in 2019?    
+
+- intent: ask_placement_stats
+  examples: |
+    - Show placements for [2022-2023](year)
+    - 2021-2022 placement stats
+    - How many got placed in [2020-2021](year)?
+    - Placement percentage last year
+    - Tell me about 2022 placements
+
+
+
+
+
+
+
+
+- intent: ask_library_collection
+  examples: |
+    - library overview
+    - describe the central library
+    - what facilities does the library have?
+    - library seating capacity
+
+- intent: ask_library_resources
+  examples: |
+    - how many books are available?
+    - list library resources
+    - show physical collection counts
+    - scopus publications count
+
+- intent: ask_ejournals
+  examples: |
+    - list e-journals
+    - what online journals are available?
+    - IEEE journal access
+    - show 2023 e-journal subscriptions
+
+- intent: ask_ebooks
+  examples: |
+    - available e-books
+    - how to access mcgraw hill books?
+    - list digital book collections
+
+
+- intent: ask_naac_accreditation
+  examples: |
+    - NAAC accreditation status
+    - show NAAC grades
+    - what was the 2024 NAAC score?
+    - cycle-III NAAC result
+
+- intent: ask_nba_accreditation
+  examples: |
+    - NBA accredited programs
+    - list NBA accreditation years
+    - which programs have NBA?
+    - NBA 2024 status
+
+- intent: ask_ugc_certification
+  examples: |
+    - UGC 2f status
+    - is the college UGC 12B certified?
+    - show UGC recognition documents
+    - current UGC certification
+
+
+
+- intent: ask_hostel_capacity
+  examples: |
+    - hostel capacity
+    - how many students can stay?
+    - total hostel strength
+    - boys and girls hostel capacity
+
+- intent: ask_hostel_rooms
+  examples: |
+    - number of rooms
+    - how many rooms in girls hostel?
+    - boys hostel room count
+    - total hostel rooms
+
+- intent: ask_hostel_facilities
+  examples: |
+    - what facilities in hostel?
+    - hostel amenities
+    - does hostel have wifi?
+    - recreation facilities    
+
+
+- intent: ask_mess_details
+  examples: |
+    - tell me about the mess
+    - what food is served in mess?
+    - mess facilities
+    - does mess serve non-veg?
+
+- intent: ask_canteen_details
+  examples: |
+    - canteen information
+    - what's available in canteen?
+    - canteen timings
+    - canteen food rates
+
+- intent: ask_food_hygiene
+  examples: |
+    - how is food quality maintained?
+    - mess hygiene standards
+    - food safety measures
+    - kitchen cleanliness
+
+
+
+- intent: ask_sports_facilities
+  examples: |
+    - sports facilities
+    - what games are available?
+    - physical education setup
+    - tell me about sports
+
+- intent: ask_indoor_sports
+  examples: |
+    - indoor games
+    - chess boards available?
+    - table tennis facilities
+    - carom boards count
+
+- intent: ask_outdoor_sports
+  examples: |
+    - outdoor games
+    - cricket ground size
+    - volleyball courts
+    - basketball facilities
+
+- intent: ask_athletic_facilities
+  examples: |
+    - athletic track
+    - field events available
+    - javelin facilities
+    - long jump pit
+
+
+
+- intent: ask_total_infrastructure
+  examples: |
+    - total infrastructure area
+    - how big is the campus?
+    - what's the total built-up area?
+    - campus size details
+
+- intent: ask_classroom_details
+  examples: |
+    - how many classrooms?
+    - classroom sizes
+    - seminar halls count
+    - teaching facilities
+
+- intent: ask_lab_details
+  examples: |
+    - laboratory information
+    - how many research labs?
+    - lab sizes
+    - science facilities
+
+- intent: ask_area_distribution
+  examples: |
+    - area breakdown
+    - how is space allocated?
+    - percentage distribution
+    - instructional vs admin area
+
+
+
+- intent: query_discipline_rules
+  examples: |
+    - What are the discipline rules at VIIT?
+    - List all college conduct guidelines.
+    - Prohibited activities in the campus.
+    - Can I use my phone in college?
+    - Is smoking allowed on campus?
+    - What happens if I damage college property?
+    - Are identity cards mandatory?
+    - Punishment for ragging at Vignan's.
+    - Rules for behavior in classrooms.
+    - Is loitering allowed during college hours?
+    - Can students organize events without permission?
+    - Penalty for latecomers to class.
+    - Are strikes allowed in the college?
+    - Guidelines for interactions with girl students.
+    - Consequences of violating discipline.
+
+# Intent: Report Violation
+- intent: report_violation
+  examples: |
+    - How to report a discipline violation?
+    - Someone is ragging juniors, what should I do?
+    - Process to complain about misbehavior.
+    - Where to report damaged property?
+    - Anonymous complaint for rule-breaking.
+    - Contact for disciplinary issues.
+    - I saw a student smoking, how to report?
+    - Form for submitting a complaint.
+    - Urgent action needed for a violation.
+    - Whom to inform about strikes?
+
+# Intent: Query Penalties
+- intent: query_penalties
+  examples: |
+    - What’s the punishment for ragging?
+    - Penalty for bringing a phone to college.
+    - Consequences of striking/demonstrations.
+    - Fine for damaging college property.
+    - How strict is VIIT about discipline?
+    - Is suspension possible for rule-breaking?
+    - Examples of past disciplinary actions.
+    - Penalty for triple riding on bikes.
+    - What happens if I miss class frequently?
+    - Can I be expelled for misbehavior?
+
+
+
+
+# DEPARTMENT INFO
+- intent: query_civil_dept
+  examples: |
+    - Tell me about Civil Engineering at VIIT
+    - Overview of Civil department
+    - When was Civil Engineering established here?
+    - Key strengths of Civil branch
+    - Faculty details in Civil Engineering
+    - Lab facilities for Civil students
+    - Placement record of Civil department
+    - Research projects in Civil
+    - Student intake capacity for B.Tech Civil
+    - Awards won by Civil department
+
+# HOD-SPECIFIC
+- intent: query_civil_hod
+  examples: |
+    - Who is the current HOD of Civil?
+    - Dr. Govinda Lalam's background
+    - Contact details for Civil HOD
+    - Research focus of Dr. Lalam
+    - How to meet the Civil HOD?
+    - Office location of HOD Civil
+    - Is Dr. Lalam available today?
+    - HOD's message for Civil students
+    - Leadership style of Civil HOD
+    - Publications by Dr. Govinda Lalam
+
+# ACADEMICS
+- intent: query_civil_academics
+  examples: |
+    - Programs offered in Civil Engineering
+    - B.Tech Civil syllabus structure
+    - M.Tech Transportation Engineering details
+    - Elective subjects in Civil
+    - Lab schedule for Concrete Technology
+    - Software training in Civil curriculum
+    - Internship requirements for Civil
+    - Thesis guidelines for M.Tech Civil
+
+
+
+- intent: query_eee_dept
+  examples: |
+    - Overview of EEE department
+    - Key achievements of EEE at VIIT
+    - Research areas in Electrical Engineering
+    - Faculty qualifications in EEE
+    - Lab facilities for Power Systems
+    - Funded projects in EEE department
+    - Student placement rate for EEE
+    - Community programs by EEE
+    - Industry collaborations of EEE
+    - Teaching methods used in EEE
+
+# 2. HOD-SPECIFIC (Precise + Actionable)
+- intent: query_eee_hod
+  examples: |
+    - Who is the current HOD of EEE?
+    - Dr. Pudi Sekhar's background
+    - Contact details for EEE HOD
+    - Research focus of Dr. Sekhar
+    - Is Dr. Pudi Sekhar available today?
+    - HOD's office hours in EEE block
+    - Leadership style of EEE department head
+    - HOD's publications in Power Systems
+
+# 3. ACADEMIC PROGRAMS (Structured + Detailed)
+- intent: query_eee_academics
+  examples: |
+    - Programs offered in EEE
+    - B.Tech EEE intake capacity
+    - M.Tech Power and Industrial Drives syllabus
+    - Elective courses in Electrical Engineering
+    - Lab schedule for High Voltage Engineering
+    - Software training in EEE curriculum
+    - Thesis requirements for M.Tech EEE
+    - Industry visit opportunities for EEE
+
+# 4. HOD MESSAGE (Inspirational + Visionary)
+- intent: query_eee_hod_message
+  examples: |
+    - Dr. Sekhar's welcome message
+    - HOD's vision for EEE department
+    - Ethical values emphasized by EEE HOD
+    - Career guidance from Dr. Pudi Sekhar
+    - Renewable energy focus in EEE
+    - HOD's expectations from EEE graduates
+
+
+
+
+# DEPARTMENT INFO
+- intent: query_mech_dept
+  examples: |
+    - Overview of Mechanical Engineering department
+    - When was Mech department established?
+    - Key strengths of Mechanical branch
+    - Faculty details in Mechanical Engineering
+    - Lab facilities for Mech students
+    - Placement record of Mech department
+    - Research projects in Mechanical
+    - Student intake for B.Tech Mechanical
+    - Awards won by Mech department
+    - CAD/CAM facilities in Mechanical
+
+# HOD-SPECIFIC
+- intent: query_mech_hod
+  examples: |
+    - Who is the current HOD of Mechanical?
+    - Dr. S. Rambabu's background
+    - Contact details for Mech HOD
+    - Research focus of Dr. Rambabu
+    - How to meet the Mechanical HOD?
+    - Office location of HOD Mechanical
+    - Is Dr. Rambabu available today?
+    - HOD's vision for Mech students
+    - Leadership awards won by Mech HOD
+    - Publications by Dr. S. Rambabu
+
+# ACADEMICS
+- intent: query_mech_academics
+  examples: |
+    - Programs offered in Mechanical Engineering
+    - B.Tech Mech syllabus structure
+    - M.Tech Machine Design details
+    - Elective subjects in Mechanical
+    - Lab schedule for Thermal Engineering
+    - Software training in Mech curriculum
+    - Internship requirements for Mech
+    - Thesis guidelines for M.Tech Mechanical
+    - CAD/CAM courses offered
+
+
+
+
+
+# HOD MESSAGE (New Intent)
+- intent: query_ece_hod_message
+  examples: |
+    - What is the HOD's message for ECE students?
+    - Share Dr. Uma Maheswari's vision
+    - Motivational message from ECE HOD
+    - HOD's welcome note for freshers
+    - What does the HOD say about ECE's future?
+    - Inspirational quote from HOD ECE
+    - Department goals by Dr. Maheswari
+    - HOD's advice for ECE graduates
+    - Message about research in ECE
+    - HOD's thoughts on industry collaboration
+
+# Existing Intents (Updated Examples)
+- intent: query_ece_dept
+  examples: |
+    - Overview of ECE department
+    - Tell me about ECE at VIIT
+    - ECE department establishment year
+    - Key labs in Electronics Engineering
+    - Placements for ECE last year
+    - Research funding in ECE
+
+- intent: query_ece_hod
+  examples: |
+    - Who is the HOD of ECE?
+    - Dr. Uma Maheswari's research papers
+    - How to contact ECE HOD?
+    - HOD's specialization area
+
+- intent: query_ece_academics
+  examples: |
+    - List of ECE programs
+    - B.Tech ECE course structure
+    - M.Tech VLSI syllabus
+
+
+
+
+# DEPARTMENT INFO
+- intent: query_cse_dept
+  examples: |
+    - Overview of CSE department
+    - When was CSE department established?
+    - Key strengths of CSE at VIIT
+    - Faculty details in Computer Science
+    - Lab facilities for CSE students
+    - Placement record of CSE department
+    - Research projects in CSE
+    - Student intake for B.Tech CSE
+    - NBA accreditation details
+    - ACM Chapter activities
+
+# HOD-SPECIFIC
+- intent: query_cse_hod
+  examples: |
+    - Who is the current HOD of CSE?
+    - Mr. B. Dinesh Reddy's background
+    - Contact details for CSE HOD
+    - Research focus of Mr. Reddy
+    - How to meet the CSE HOD?
+    - Office location of HOD CSE
+    - Is Mr. Dinesh Reddy available today?
+    - HOD's vision for CSE students
+    - Leadership awards won by CSE HOD
+    - Publications by Mr. B. Dinesh Reddy
+
+# ACADEMICS
+- intent: query_cse_academics
+  examples: |
+    - Programs offered in CSE
+    - B.Tech CSE syllabus structure
+    - M.Tech CSE and SE details
+    - Elective subjects in CSE
+    - Lab schedule for AI/ML
+    - Software training in CSE curriculum
+    - Internship requirements for CSE
+    - Thesis guidelines for M.Tech CSE
+    - Hackathons organized by CSE
+
+# HOD MESSAGE (New Intent)
+- intent: query_cse_hod_message
+  examples: |
+    - What is the HOD's message for CSE students?
+    - Share Mr. Dinesh Reddy's vision
+    - Motivational message from CSE HOD
+    - HOD's welcome note for freshers
+    - What does the HOD say about CSE's future?
+    - Inspirational quote from HOD CSE
+    - Department goals by Mr. Reddy
+    - HOD's advice for CSE graduates
+    - Message about research in CSE
+    - HOD's thoughts on industry collaboration    
+
+
+
+
+
+# DEPARTMENT INFO
+- intent: query_acse_dept
+  examples: |
+    - Overview of ACSE department
+    - When was ACSE department established?
+    - Key strengths of ACSE at VIIT
+    - Faculty details in Advanced CSE
+    - Lab facilities for ACSE students
+    - Research projects in ACSE
+    - Student intake for B.Tech ACSE
+    - Specializations offered in ACSE
+    - ACM Chapter activities in ACSE
+    - Funding for ACSE research
+
+# HOD-SPECIFIC
+- intent: query_acse_hod
+  examples: |
+    - Who is the current HOD of ACSE?
+    - Mrs. K. Swathi's background
+    - Contact details for ACSE HOD
+    - Research focus of Mrs. Swathi
+    - How to meet the ACSE HOD?
+    - Office location of HOD ACSE
+    - Is Mrs. Swathi available today?
+    - HOD's vision for ACSE students
+    - Leadership awards won by ACSE HOD
+    - Publications by Mrs. K. Swathi
+
+# ACADEMICS
+- intent: query_acse_academics
+  examples: |
+    - Programs offered in ACSE
+    - B.Tech Cyber Security syllabus
+    - B.Tech AI and Data Science details
+    - Elective subjects in ACSE
+    - Lab schedule for Machine Learning
+    - Software training in ACSE curriculum
+    - Internship requirements for ACSE
+    - Hackathons organized by ACSE
+    - Industry collaborations in ACSE
+
+# HOD MESSAGE
+- intent: query_acse_hod_message
+  examples: |
+    - What is the HOD's message for ACSE?
+    - Share Mrs. Swathi's vision
+    - Motivational message from ACSE HOD
+    - HOD's welcome note for freshers
+    - ACSE department goals
+    - HOD's advice for ACSE students
+    - Message about research in ACSE
+    - HOD's thoughts on AI/ML trends
+    - Future plans of ACSE department
+
+
+
+
+
+# DEPARTMENT INFO
+- intent: query_it_dept
+  examples: |
+    - Overview of IT department
+    - When was IT department established?
+    - Key achievements of IT at VIIT
+    - Faculty details in IT
+    - Lab facilities for IT students
+    - Student ranks in GATE/GRE
+    - Campus placement stats for IT
+    - Research focus areas in IT
+    - Infrastructure details of IT department
+    - Student organizations in IT
+
+# HOD-SPECIFIC
+- intent: query_it_hod
+  examples: |
+    - Who is the current HOD of IT?
+    - Dr. G. Neelima's background
+    - Contact details for IT HOD
+    - Research focus of Dr. Neelima
+    - How to schedule a meeting with IT HOD?
+    - Office location of HOD IT
+    - Is Dr. Neelima available today?
+    - HOD's vision for IT students
+    - Leadership awards won by IT HOD
+    - Publications by Dr. G. Neelima
+
+# ACADEMICS
+- intent: query_it_academics
+  examples: |
+    - Programs offered in IT
+    - B.Tech IT syllabus structure
+    - M.Tech IT program details
+    - Elective subjects in IT
+    - Lab schedule for Software Engineering
+    - Software training in IT curriculum
+    - Internship requirements for IT
+    - Thesis guidelines for M.Tech IT
+    - Industry-aligned courses in IT
+
+# HOD MESSAGE
+- intent: query_it_hod_message
+  examples: |
+    - What is the HOD's message for IT?
+    - Share Dr. Neelima's vision
+    - Motivational message from IT HOD
+    - HOD's welcome note for freshers
+    - IT department goals
+    - HOD's advice for IT students
+    - Message about real-time applications
+    - HOD's thoughts on industry trends
+    - Future plans of IT department
+
+
+
+
+
+# DEPARTMENT INFO
+- intent: query_ecm_dept
+  examples: |
+    - Overview of ECM department
+    - What is Electronics and Computer Engineering?
+    - Key strengths of ECM program
+    - Faculty expertise in ECM
+    - Lab facilities for ECM students
+    - ICT applications covered in ECM
+    - Industry relevance of ECM
+    - Career opportunities after ECM
+    - Research areas in ECM
+    - Student projects in ECM
+
+# HOD-SPECIFIC
+- intent: query_ecm_hod
+  examples: |
+    - Who is the HOD of ECM?
+    - Dr. H. Devanna's background
+    - Contact details for ECM HOD
+    - Research focus of Dr. Devanna
+    - How to meet the ECM HOD?
+    - Office location of HOD ECM
+    - Is Dr. Devanna available this week?
+    - HOD's vision for ECM students
+    - Leadership approach of ECM HOD
+
+# ACADEMICS
+- intent: query_ecm_academics
+  examples: |
+    - Program duration of ECM
+    - Courses in hardware design
+    - Software subjects in ECM
+    - ICT applications in curriculum
+    - Lab schedule for embedded systems
+    - Programming languages taught
+    - Internship opportunities
+    - Final year project guidelines
+    - Industry collaborations
+
+# HOD MESSAGE
+- intent: query_ecm_hod_message
+  examples: |
+    - HOD's welcome message for ECM
+    - Dr. Devanna's vision for ECM
+    - Motivational message from ECM HOD
+    - Future goals of ECM department
+    - HOD's advice for ECM students
+    - Message about industry readiness
+    - Research focus of ECM department
+
+
+
+
+# DEPARTMENT INFO
+- intent: query_aids_dept
+  examples: |
+    - Overview of AI&DS department
+    - When was AI&DS program started?
+    - Key focus areas of AI&DS
+    - Faculty expertise in machine learning
+    - Lab facilities for AI&DS students
+    - Industry relevance of AI&DS
+    - Career paths after AI&DS
+    - Research projects in deep learning
+    - Student achievements in AI&DS
+    - Industry-academia partnerships
+
+# HOD-SPECIFIC
+- intent: query_aids_hod
+  examples: |
+    - Who is the HOD of AI&DS?
+    - Dr. T.V. Madhusudan Rao's background
+    - Contact details for AI&DS HOD
+    - Research focus of Dr. Rao
+    - How to meet the AI&DS HOD?
+    - Office location of HOD AI&DS
+    - Is Dr. Madhusudan Rao available?
+    - HOD's teaching philosophy
+    - Leadership awards won by HOD
+
+# ACADEMICS
+- intent: query_aids_academics
+  examples: |
+    - Program structure of B.Tech AI&DS
+    - Core subjects in machine learning
+    - Data science curriculum details
+    - Big data analytics courses
+    - Lab schedule for deep learning
+    - Programming languages taught
+    - Capstone project requirements
+    - Internship opportunities
+    - Industry certification programs
+
+# HOD MESSAGE
+- intent: query_aids_hod_message
+  examples: |
+    - HOD's welcome message for AI&DS
+    - Dr. Rao's vision for the department
+    - Motivational message for students
+    - Department's future goals
+    - HOD's advice for aspiring data scientists
+    - Message about industry readiness
+    - Research focus areas
+    - Expectations from AI&DS students
+
+
+
+
+# DEPARTMENT INFO
+- intent: query_bsh_dept
+  examples: |
+    - Overview of Basic Sciences department
+    - Subjects covered in BS&H
+    - Faculty qualifications in BS&H
+    - Research achievements of BS&H
+    - Counseling system details
+    - Student transformation programs
+    - Awards won by BS&H faculty
+    - International collaborations
+    - Holistic development initiatives
+    - Exhibition and workshop details
+
+# HOD-SPECIFIC
+- intent: query_bsh_hod
+  examples: |
+    - Who is the HOD of BS&H?
+    - Dr. Satyaguru's background
+    - Contact details for BS&H HOD
+    - Research focus of Dr. Satyaguru
+    - How to meet the BS&H HOD?
+    - Office location of HOD BS&H
+    - Is Dr. Satyaguru available today?
+    - HOD's teaching philosophy
+    - Leadership awards won by HOD
+
+# ACADEMICS
+- intent: query_bsh_academics
+  examples: |
+    - Role of BS&H in B.Tech program
+    - Foundation courses offered
+    - Bridge programs for engineering
+    - Mathematics curriculum details
+    - Environmental science syllabus
+    - English communication training
+    - Soft skills programs
+    - Faculty development programs
+    - Student research opportunities
+
+# HOD MESSAGE
+- intent: query_bsh_hod_message
+  examples: |
+    - HOD's vision for BS&H
+    - Welcome message for freshers
+    - Department's transformation goals
+    - Message about global readiness
+    - Advice for first-year students
+    - Research expectations
+    - Interdisciplinary approach
+    - Faculty development vision
+
+
+
+
+
+# DEPARTMENT INFO
+- intent: query_mba_dept
+  examples: |
+    - Overview of MBA program
+    - When was MBA started at VIIT?
+    - Key objectives of MBA department
+    - Faculty industry experience
+    - Teaching methodology in MBA
+    - Top recruiters for MBA
+    - Industry collaboration details
+    - Global alumni network
+    - Unique pedagogy features
+    - Research and consultancy work
+
+# HOD-SPECIFIC
+- intent: query_mba_hod
+  examples: |
+    - Who is the HOD of MBA?
+    - Dr. B. Chandra's background
+    - Contact details for MBA HOD
+    - Research focus of Dr. Chandra
+    - How to schedule meeting with MBA HOD?
+    - Office location of HOD MBA
+    - Availability of Dr. Chandra
+    - HOD's industry experience
+    - Leadership philosophy
+
+# ACADEMICS
+- intent: query_mba_academics
+  examples: |
+    - MBA program structure
+    - Specializations offered
+    - Case study methodology
+    - Business games details
+    - Industry internship program
+    - Live project requirements
+    - Expert seminar schedule
+    - Leadership development
+    - Global business exposure
+
+# HOD MESSAGE
+- intent: query_mba_hod_message
+  examples: |
+    - HOD's vision for MBA
+    - Welcome message for MBA students
+    - Department's industry connect
+    - Placement success factors
+    - Advice for aspiring managers
+    - Research expectations
+    - Social responsibility focus
+    - Future goals of department
+
+
+
+
+# DEPARTMENT INFO
+- intent: query_mba_dept
+  examples: |
+    - Overview of MBA program
+    - When was MBA started at VIIT?
+    - Key objectives of MBA department
+    - Faculty industry experience
+    - Teaching methodology in MBA
+    - Top recruiters for MBA
+    - Industry collaboration details
+    - Global alumni network
+    - Unique pedagogy features
+    - Research and consultancy work
+
+# HOD-SPECIFIC
+- intent: query_mba_hod
+  examples: |
+    - Who is the HOD of MBA?
+    - Dr. B. Chandra's background
+    - Contact details for MBA HOD
+    - Research focus of Dr. Chandra
+    - How to schedule meeting with MBA HOD?
+    - Office location of HOD MBA
+    - Availability of Dr. Chandra
+    - HOD's industry experience
+    - Leadership philosophy
+
+# ACADEMICS
+- intent: query_mba_academics
+  examples: |
+    - MBA program structure
+    - Specializations offered
+    - Case study methodology
+    - Business games details
+    - Industry internship program
+    - Live project requirements
+    - Expert seminar schedule
+    - Leadership development
+    - Global business exposure
+
+# HOD MESSAGE
+- intent: query_mba_hod_message
+  examples: |
+    - HOD's vision for MBA
+    - Welcome message for MBA students
+    - Department's industry connect
+    - Placement success factors
+    - Advice for aspiring managers
+    - Research expectations
+    - Social responsibility focus
+    - Future goals of department
+
+
+
+
+# DEPARTMENT INFO
+- intent: query_mca_dept
+  examples: |
+    - Overview of MCA department
+    - When was MCA program started?
+    - Key features of MCA at VIIT
+    - Faculty details in MCA
+    - Outcome-based education approach
+    - Industry relevance of MCA
+    - Teamwork focus in curriculum
+    - Research activities in MCA
+    - Student success stories
+    - Departmental achievements
+
+# HOD-SPECIFIC
+- intent: query_mca_hod
+  examples: |
+    - Who is the HOD of MCA?
+    - Dr. Chandrasekharan Dinesh's background
+    - Contact details for MCA HOD
+    - Research focus of Dr. Dinesh
+    - How to meet the MCA HOD?
+    - Office location of HOD MCA
+    - Is Dr. Dinesh available for guidance?
+    - HOD's teaching philosophy
+    - Leadership contributions
+
+# ACADEMICS
+- intent: query_mca_academics
+  examples: |
+    - MCA program duration
+    - Specializations offered
+    - Practical training components
+    - Industry collaboration details
+    - Project requirements
+    - Programming languages taught
+    - Software development focus
+    - Internship opportunities
+    - Placement preparation
+
+# HOD MESSAGE
+- intent: query_mca_hod_message
+  examples: |
+    - HOD's vision for MCA
+    - Welcome message for MCA students
+    - Department's quality focus
+    - Message about teamwork
+    - Advice for aspiring IT professionals
+    - Research expectations
+    - Industry readiness approach
+    - Future goals of department
+
+
+
+- intent: greet_festive
+  examples: |
+    - Happy New Year
+    - Happy Sankranti
+    - Happy Pongal
+    - Happy Ugadi
+    - Happy Republic Day
+    - Happy Independence Day
+    - Happy Diwali
+    - Happy Dussehra
+    - Season's greetings
+    - Happy Holidays
+
+- intent: greet_time_based
+  examples: |
+    - Good morning
+    - Morning
+    - Good afternoon
+    - Afternoon
+    - Good evening
+    - Evening
+    - Good night
+    - Night    
+
+
+
+
+
+- intent: ask_placements_2021
+  examples: |
+    - What were the placements like in 2021?
+    - Placement report for 2021?
+
+- intent: ask_placements_2022
+  examples: |
+    - Show me 2022 placement data.
+    - Placement stats for 2022?
+
+
+
+
+
+
+
+
+- intent: ask_admission_dates
+  examples: |
+    - When do admissions start at VIIT?
+    - What month do admissions begin?
+    - Are VIIT admissions open now?
+
+- intent: ask_admission_categories
+  examples: |
+    - What are the different admission categories?
+    - Is there a management quota at VIIT?
+    - Does VIIT accept lateral entry or JEE scores?
+
+- intent: ask_application_method
+  examples: |
+    - How can I apply for admission?
+    - Can I register online or offline?
+    - What's the process to apply to VIIT?
+
+- intent: ask_online_steps
+  examples: |
+    - What are the steps for online admission?
+    - How do I apply on the website?
+    - What documents do I need for online admission?
+
+- intent: ask_management_quota
+  examples: |
+    - Can I apply without an entrance exam?
+    - How does management quota work?
+    - Is admission possible without AP EAMCET?
+
+- intent: check_admission_status
+  examples: |
+    - How do I check my admission status?
+    - Can I track my application?
+    - Where can I see if I have been admitted?
+
+- intent: ask_confirmation_process
+  examples: |
+    - Is admission confirmation immediate?
+    - When is admission finalized?
+    - Do I get confirmed after payment?
+
+- intent: ask_multiple_courses
+  examples: |
+    - Can I apply for more than one course?
+    - Is it possible to submit multiple applications?
+
+- intent: ask_foreign_student_admission
+  examples: |
+    - Can foreign students apply?
+    - Is there a quota for international students?
+
+- intent: ask_admission_brochure
+  examples: |
+    - How can I get the admission brochure?
+    - Is the brochure available online?
+
+- intent: ask_btech_eligibility
+  examples: |
+    - What are the eligibility criteria for B.Tech?
+    - Do I need PCM for engineering admission?
+
+- intent: ask_minimum_percentage
+  examples: |
+    - What is the minimum percentage required?
+    - How much should I score in 12th?
+
+- intent: ask_lateral_entry
+  examples: |
+    - Can diploma holders apply?
+    - Is lateral entry available for B.Tech?
+
+- intent: ask_age_limit
+  examples: |
+    - Is there an age requirement?
+    - What's the minimum age for admission?
+
+- intent: ask_mgmt_restrictions
+  examples: |
+    - Are there any restrictions for management quota?
+    - Is the fee different for management quota?
+
+- intent: ask_bio_student_eligibility
+  examples: |
+    - Can biology students apply for engineering?
+    - Is PCM mandatory?
+
+- intent: ask_nios_eligibility
+  examples: |
+    - Do NIOS students qualify?
+    - Can open school students apply?
+
+- intent: ask_backlog_eligibility
+  examples: |
+    - Can I apply if I have backlogs?
+    - Do I need to clear all 12th subjects?
+
+- intent: ask_working_professional
+  examples: |
+    - Can working professionals apply for UG courses?
+    - Are undergraduate programs available part-time?
+
+
+
+
+
+
+- intent: ask_accepted_exams
+  examples: |
+    - Which entrance exams are accepted at VIIT?
+    - Does VIIT accept JEE or AP EAMCET?
+    - Is GATE required for PG programs?
+
+- intent: ask_cse_cutoff
+  examples: |
+    - What is the AP EAMCET cut-off for CSE?
+    - How much rank is needed for CSE at VIIT?
+    - What's the cut-off for Computer Science?
+
+- intent: ask_cutoff_relaxation
+  examples: |
+    - Is there a cut-off relaxation for SC/ST students?
+    - Do reserved categories get lower cut-offs?
+    - Is there any relaxation for backward classes?
+
+- intent: ask_low_rank_admission
+  examples: |
+    - Can I get admission with a low AP EAMCET rank?
+    - Is admission possible with a poor rank?
+    - What if my rank is not good?
+
+- intent: ask_lateral_cutoff
+  examples: |
+    - What is the cut-off for lateral entry students?
+    - How are diploma scores evaluated?
+    - Is there a separate cut-off for lateral entry?
+
+
+
+
+
+
+- intent: ask_annual_fee
+  examples: |
+    - What is the annual tuition fee for B.Tech?
+    - How much is the yearly fee?
+    - What's the fee per year for engineering?
+
+- intent: ask_mgmt_fee_difference
+  examples: |
+    - Are fees different for management quota students?
+    - Do management students pay more?
+    - Is the fee higher for quota admissions?
+
+- intent: ask_fee_installments
+  examples: |
+    - Can fees be paid in installments?
+    - Is installment payment allowed?
+    - Can I split the fee into parts?
+
+- intent: ask_payment_methods
+  examples: |
+    - What are the accepted payment methods?
+    - How can I pay the tuition fee?
+    - Is UPI or DD accepted?
+
+- intent: ask_late_fee_penalty
+  examples: |
+    - Are there any late fee penalties?
+    - What happens if I pay late?
+    - Is there a fine for delayed payment?
+
+
+
+
+
+- intent: ask_scholarship_availability
+  examples: |
+    - Does VIIT offer scholarships?
+    - Are scholarships available?
+    - Can I get financial support?
+
+- intent: ask_merit_scholarship_criteria
+  examples: |
+    - What percentage is required for a merit scholarship?
+    - How much should I score for a scholarship?
+    - Is 90% enough for merit-based aid?
+
+- intent: ask_government_scholarship
+  examples: |
+    - Can I apply for government scholarships?
+    - Are state or central schemes available?
+    - Does VIIT support government scholarship applications?
+
+- intent: ask_scholarship_amount
+  examples: |
+    - What is the scholarship amount?
+    - How much money do I get from a scholarship?
+    - Is the scholarship fixed or variable?
+
+- intent: ask_ews_financial_aid
+  examples: |
+    - Is financial aid available for economically weak students?
+    - What support is there for EWS students?
+    - Can EWS students get scholarships?
+
+
+
+
+
+- intent: ask_hostel_availability
+  examples: |
+    - Is hostel accommodation available?
+    - Do you provide hostels?
+    - Are there separate hostels for boys and girls?
+
+- intent: ask_hostel_fee
+  examples: |
+    - What is the hostel fee?
+    - How much does hostel accommodation cost?
+    - What's the yearly hostel charge?
+
+- intent: ask_hostel_admission_criteria
+  examples: |
+    - Is hostel admission based on merit?
+    - How is hostel allotment decided?
+    - Is hostel given on first-come basis?
+
+
+
+
+
+- intent: ask_campus_visit
+  examples: |
+    - Can I visit the campus before admission?
+    - Is a campus tour possible before joining?
+    - Can I see the college before applying?
+
+- intent: ask_admission_updates
+  examples: |
+    - Where can I find admission updates?
+    - How do I stay informed about admissions?
+    - Is there a site for latest admission info?
+   
+   
+   
+
+  
+
+
+
+
+ 
+

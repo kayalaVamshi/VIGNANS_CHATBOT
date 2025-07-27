@@ -1,0 +1,1504 @@
+version: "3.1"
+
+### 👉 Intents (All user inputs)
+intents:
+  - ask_contact_phone
+  - ask_contact_email
+  - ask_contact_address
+  - ask_contact_location
+  - ask_chairman_name
+  - ask_chairman_vision
+  - ask_chairman_concerns
+  - ask_viit_approach
+  - ask_education_reforms
+  - ask_ap_colleges
+  - ask_chairman_message
+  - ask_courses_offered
+  - ask_cse_specializations
+  - ask_course_duration
+  - ask_course_updates
+  - ask_course_comparison
+  - ask_course_seats
+  - ask_courses
+  - query_admission_policy
+  - query_seat_allocation
+  - query_reservation_stats
+  - query_admission_process
+  - ask_vision
+  - ask_mission
+  - ask_ceo_name
+  - ask_ceo_message
+  - ask_rector_name
+  - ask_rector_message
+  
+
+
+  - ask_vision_mission
+  - ask_infrastructure
+  - ask_policies
+  - ask_awards
+  - ask_ceo
+  - ask_rector
+  - ask_principal
+  - ask_dean_administration
+  - ask_dean_iqac
+  - ask_dean_academics
+  - ask_dean_evaluation
+  - ask_dean_admissions
+  - ask_dean_placement
+  - ask_dean_faculty_affairs
+  - ask_dean_research
+  - ask_dean_international
+  - ask_dean_industry
+  - ask_dean_student_affairs
+  - ask_associate_dean_infrastructure
+  - ask_aicte_2024_25
+  - ask_aicte_2023_24
+  - ask_aicte_2022_23
+  - ask_aicte_2021_22
+  - ask_aicte_2020_21
+  - ask_aicte_2019_20
+  - ask_aicte_2018_19
+  - ask_jntuk_affiliation_2019_20
+  - ask_jntuk_affiliation_2012_23
+  - ask_ugc_autonomous_2017
+  - ask_ugc_autonomous_2024
+  - ask_jntugv_research_ce_2023_25
+  - ask_jntugv_research_cse_2023_25
+  - ask_jntugv_research_ece_2023_25
+  - ask_jntugv_research_eee_2023_25
+  - ask_jntugv_research_mech_2023_25
+  - ask_jntugv_research_mba_2023_25
+  - ask_jntuk_research_cse_2016_17
+  - ask_jntuk_research_mech_2016_17
+  - ask_jntuk_research_ece_2017_18
+  - ask_jntuk_research_cse_2018_19
+  - ask_jntuk_research_eee_2018_19
+  - ask_jntuk_research_mba_2018_19
+  - ask_jntuk_research_ece_2019_20
+
+
+  - ask_placement_stats
+  
+
+  - ask_library_collection
+  - ask_library_resources
+  - ask_ejournals
+  - ask_ebooks
+  - ask_naac_accreditation
+  - ask_nba_accreditation
+  - ask_ugc_certification
+
+  
+  - ask_hostel_capacity
+  - ask_hostel_facilities
+  - ask_hostel_rooms
+
+
+  - ask_mess_details
+  - ask_canteen_details
+  - ask_food_hygiene
+
+
+
+  - ask_sports_facilities
+  - ask_indoor_sports
+  - ask_outdoor_sports
+  - ask_athletic_facilities
+
+
+
+  - ask_total_infrastructure
+  - ask_classroom_details
+  - ask_lab_details
+  - ask_area_distribution
+
+  - query_discipline_rules
+  - report_violation
+  - query_penalties
+
+
+
+ 
+  - query_civil_dept
+  - query_civil_hod
+  - query_civil_academics
+
+
+
+  - query_eee_dept
+  - query_eee_hod
+  - query_eee_academics
+  - query_eee_hod_message
+
+
+
+  - query_mech_dept
+  - query_mech_hod
+  - query_mech_academics
+
+
+
+  - query_ece_dept
+  - query_ece_hod
+  - query_ece_academics
+  - query_ece_hod_message  # New intent
+
+
+
+  - query_cse_dept
+  - query_cse_hod
+  - query_cse_academics
+  - query_cse_hod_message
+
+
+  - query_acse_dept
+  - query_acse_hod
+  - query_acse_academics
+  - query_acse_hod_message
+
+
+
+
+  - query_it_dept
+  - query_it_hod
+  - query_it_academics
+  - query_it_hod_message
+
+
+
+  - query_ecm_dept
+  - query_ecm_hod
+  - query_ecm_academics
+  - query_ecm_hod_message
+
+
+
+  - query_aids_dept
+  - query_aids_hod
+  - query_aids_academics
+  - query_aids_hod_message
+
+
+
+  - query_bsh_dept
+  - query_bsh_hod
+  - query_bsh_academics
+  - query_bsh_hod_message
+
+
+
+
+
+  - query_mba_dept
+  - query_mba_hod
+  - query_mba_academics
+  - query_mba_hod_message
+
+
+
+
+  - query_mca_dept
+  - query_mca_hod
+  - query_mca_academics
+  - query_mca_hod_message
+
+  
+
+  
+
+
+  - greet
+  - greet_festive
+  - greet_time_based
+  - identify_student
+  - identify_faculty
+
+
+  
+  
+  - ask_cse_cutoff
+  - ask_annual_fee
+  - ask_mgmt_fee_difference
+  - ask_fee_installments
+  - ask_payment_methods
+  - ask_late_fee_penalty
+  - ask_scholarship_availability
+  - ask_merit_scholarship_criteria
+  - ask_hostel_availability
+  - ask_hostel_admission_criteria
+  - ask_campus_visit
+  - ask_admission_updates
+
+
+
+
+
+
+  
+  - ask_backlog_eligibility
+  - ask_cutoff_relaxation
+  - ask_multiple_courses
+  - ask_confirmation_process
+ 
+  - ask_online_steps
+  - ask_admission_brochure
+  - ask_application_method
+  - ask_hostel_fee
+  - ask_government_scholarship
+  - ask_btech_eligibility
+  - ask_ews_financial_aid
+  - ask_mgmt_restrictions
+  - ask_minimum_percentage
+  - ask_working_professional
+
+
+
+
+
+
+ 
+
+  - ask_age_limit
+  - ask_low_rank_admission
+  - ask_admission_categories
+  - ask_nios_eligibility
+  - ask_scholarship_amount
+  - ask_bio_student_eligibility
+  - check_admission_status
+  - ask_lateral_cutoff
+  - ask_lateral_entry
+  - ask_management_quota
+  - ask_foreign_student_admission
+
+
+
+  - ask_admission_dates
+  - ask_accepted_exams
+
+  - ask_fee_installments
+
+
+   
+ 
+
+
+  
+
+
+slots:
+  year:
+    type: text  # or 'categorical' if you have specific year options
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: year
+
+  
+  
+  violation_type:
+    type: text
+    mappings:
+      - type: from_text
+  penalty_type:
+    type: text
+    mappings:
+      - type: from_text
+  category_type:
+    type: text
+    mappings:
+      - type: from_text
+  reservation_category:
+    type: text
+    mappings:
+      - type: from_text
+  academic_year:
+    type: text
+    mappings:
+      - type: from_text
+
+      
+    
+   
+
+entities:
+  - year
+  - category_type  # e.g., "Category-A", "Category-B"
+  - reservation_category  # e.g., "SC", "ST", "OBC"
+  - academic_year  # e.g., "2022-23"
+  - violation_type  # e.g., "ragging", "smoking", "property damage"
+  - penalty_type    # e.g., "suspension", "fine", "confiscation"
+
+
+
+### 👉 Responses (Bot replies)
+responses:
+  # === Contact Information ===
+  utter_ask_contact_phone:
+    - text: "You can call VIIT at 0891-2755222 / 333 / 444 / 555."
+  utter_ask_contact_email:
+    - text: "You can email us at vignaniit@yahoo.com or principal@vignaniit.edu.in."
+  utter_ask_contact_address:
+    - text: "Our address: Besides VSEZ, Duvvada, Vadlapudi Post, Gajuwaka, Visakhapatnam - 530049, A.P., India."
+  utter_ask_contact_location:
+    - text: "VIIT is located near VSEZ, Duvvada, in Gajuwaka, Visakhapatnam, Andhra Pradesh."
+
+  # === Chairman Details ===
+  utter_ask_chairman_name:
+    - text: "The chairman of Vignan Institute of Information Technology is Dr. Lavu Rathaiah, an eminent educationist and visionary."
+  utter_ask_chairman_vision:
+    - text: "The chairman envisions holistic technical education that bridges the gap between industry requirements and student skillsets, emphasizing innovation."
+  utter_ask_chairman_concerns:
+    - text: "He is concerned that despite the large number of engineering colleges, students still lack industry-relevant skills."
+  utter_ask_chairman_message:
+    - text: "He encourages students to dream big and contribute to India's development with the help of quality education."
+  utter_ask_ap_colleges:
+    - text: "He mentions that Andhra Pradesh has many colleges, but the quality of technical education and skill development needs improvement."
+  utter_ask_education_reforms:
+    - text: "He believes reforms are necessary to meet India's evolving industrial and financial needs by producing highly skilled professionals."  
+  utter_ask_viit_approach:
+  - text: "VIIT promotes innovative teaching and learning practices to bridge the gap between academic learning and industry needs."  
+  # === Course Information ===
+  utter_ask_courses_offered:
+    - text: "VIIT offers B.Tech programs in CSE, CSE (AI & ML), CSE (DS), IT, ECE, EEE, Mechanical, and Civil Engineering."
+  utter_ask_cse_specializations:
+    - text: "Yes, we offer CSE with specializations in Artificial Intelligence & Machine Learning, and Data Science."
+  utter_ask_course_duration:
+    - text: "All B.Tech programs at VIIT are of 4 years duration, spread over 8 semesters."
+  utter_ask_course_updates:
+    - text: "New specializations in CSE like AI & ML, and Data Science have been introduced to meet industry needs."
+  utter_ask_course_comparison:
+    - text: "Each branch has its own strengths. CSE and IT are more software-oriented, while ECE and EEE focus on hardware and electronics."
+  utter_ask_course_seats:
+    - text: "Seat availability varies by department. For example, CSE has 240 seats, ECE has 180, and Mechanical has 60 seats."
+  utter_ask_courses:
+    - text: |
+        VIIT offers the following courses:
+
+        ✅ *Undergraduate (B.Tech) Courses (2025-26)*:
+        - Artificial Intelligence & Data Science (240)
+        - Computer Science & Engineering (540)
+        - CSE (Cyber Security) (180)
+        - CSE (AI) (240)
+        - CSE (Data Science) (180)
+        - Civil Engineering (120)
+        - Electrical & Electronics Engineering (120)
+        - Electronics & Computer Engineering (60)
+        - Electronics & Communication Engineering (360)
+        - Information Technology (180)
+        - Mechanical Engineering (180)
+
+        🔵 *Postgraduate (M.Tech) Courses*:
+        - AI & Machine Learning (09)
+        - Computer Science & Engineering (18)
+        - Digital Electronics & Comm. Systems (18)
+        - Electronics & Comm. Engineering (18)
+        - Information Technology (09)
+        - Machine Design (18)
+        - Power & Industrial Drives (18)
+        - Transportation Engineering (18)
+
+        📊 *Other PG Programs*:
+        - MBA (180)
+        - MCA (180)
+
+  # === Admission Process ===
+  utter_admission_policy:
+    - text: "VIIT admits students based on entrance exam performance (70% through APSCHE counseling, 30% via Institute allocation). Priority is given to merit and diversity."
+  
+  utter_seat_allocation:
+    - text: "Seats are split into: (1) **Category-A (70%)**: Filled via APSCHE counseling (APEAMCET/APICET/etc.). (2) **Category-B (30%)**: Filled by VIIT based on qualifying exams."
+
+  utter_reservation_stats:
+    - text: |
+        Reservation data (2022-23):
+        - **SC**: 153/171 seats filled
+        - **ST**: 52/62 seats filled
+        - **OBC**: 296/313 seats filled
+        - **General**: 1197/1020 seats filled
+        (Data available for 2018-19 to 2022-23.)
+
+  utter_admission_process:
+    - text: |
+        **Steps**: 
+        1. Apply via APSCHE (Category-A) or VIIT notification (Category-B).
+        2. Shortlisting based on exam scores.
+        3. Document verification and fee payment.
+        4. Seat allotment by VIIT authorities.
+
+
+  # === Vision & Mission ===
+  utter_ask_vision:
+    - text: >
+        VIIT envisions being a recognized leader in technical education, aiming for national excellence by creating competent and socially conscious technical manpower for the current and future industrial requirements and development of the nation.
+  utter_ask_mission:
+    - text: >
+        VIIT's mission includes:
+        • Introducing innovative teaching & learning practices.
+        • Undertaking Research & Development in thrust areas.
+        • Continuously collaborating with industry.
+        • Promoting a strong set of ethical values.
+        • Serving the surrounding region and the nation at large.
+  utter_ask_vision_mission:
+    - text: "VIIT's vision is to be a recognized leader in technical education, creating competent professionals. Its mission includes innovative teaching, industry collaboration, and ethical values."
+
+  # === Leadership (CEO, Rector, Principal) ===
+  utter_ask_ceo_name:
+    - text: "Shri Srikanth Nandugam is the CEO of VIIT."
+  utter_ask_ceo_message:
+    - text: "The CEO welcomes students to a professional and value-driven environment."
+  utter_ask_ceo:
+    - text: "Mr. N. Srikant, Chief Executive Officer at VIIT, Contact: (+91) 891-2755444"
+  utter_ask_rector_name:
+    - text: "The rector of VIIT is Dr. V. Madhusudhan Rao, FRSC."
+  utter_ask_rector_message:
+    - text: >
+        The rector emphasizes the importance of bridging the gap between academia and industry through interactive learning, CBCS curriculum, and industry collaboration. He encourages students to actively contribute to nation-building and assures VIIT’s support in achieving their life goals with values, ethics, and academic rigor.
+  utter_ask_rector:
+    - text: "Dr. V. Madhusudhan Rao, Rector at VIIT, Contact: (+91) 891-2755333"
+  utter_ask_principal:
+    - text: "Dr. J. Sudhakar, Principal of VIIT, Contact: 9052066699 or (+91) 891-2517111"
+
+  # === Deans ===
+  utter_ask_dean_administration:
+    - text: "Dr. Ch. Hari Govinda Rao, Dean Administration at VIIT, Contact: 9550782979"
+  utter_ask_dean_iqac:
+    - text: "Dr. Ch. Ramesh Babu, Dean-IQAC at VIIT, Contact: 9581807822"
+  utter_ask_dean_academics:
+    - text: "Dr. A. Naga Jyothi, Dean Academics at VIIT, Contact: 9398121200"
+  utter_ask_dean_evaluation:
+    - text: "Dr. B. Sateesh, Dean Evaluation at VIIT, Contact: 9550293989"
+  utter_ask_dean_admissions:
+    - text: "Dr. K. Madhusudan Rao, Dean Admissions at VIIT, Contact: 9618356061"
+  utter_ask_dean_placement:
+    - text: "Dr. B. Prasad, Dean Placement & Training at VIIT, Contact: 7093098775"
+  utter_ask_dean_faculty_affairs:
+    - text: "Dr. R. Sundara Ramam, Dean Faculty Affairs at VIIT, Contact: 9440031140"
+  utter_ask_dean_research:
+    - text: "Dr. G. Kranthi Kumar, Dean Research & Development at VIIT, Contact: 9966600092"
+  utter_ask_dean_international:
+    - text: "Dr. Susant Kumar Sahu, Dean International Student Affairs at VIIT, Contact: 9642190851"
+  utter_ask_dean_industry:
+    - text: "Dr. Ch. Rohini Kumar, Dean-Industry Relations at VIIT, Contact: 8008606053"
+  utter_ask_dean_student_affairs:
+    - text: "Mr. Ch. Siva Rama Krishna, Dean-Student Affairs at VIIT, Contact: 9989921032"
+  utter_ask_associate_dean_infrastructure:
+    - text: "Mr. B. Bramhaiah, Associate Dean - Infrastructure at VIIT, Contact: 7989494729"
+
+  # === Approvals & Affiliations ===
+  utter_ask_aicte_2024_25:
+    - text: "VIIT is approved by AICTE for the academic year 2024-25, ensuring compliance with national standards for technical education."
+  utter_ask_aicte_2023_24:
+    - text: "VIIT received AICTE approval for the academic year 2023-24, supporting its technical programs."
+  utter_ask_aicte_2022_23:
+    - text: "VIIT was approved by AICTE for the academic year 2022-23, maintaining its status as a recognized technical institute."
+  utter_ask_aicte_2021_22:
+    - text: "VIIT secured AICTE approval for the academic year 2021-22, validating its engineering and technical courses."
+  utter_ask_aicte_2020_21:
+    - text: "VIIT was approved by AICTE for the academic year 2020-21, ensuring quality technical education."
+  utter_ask_aicte_2019_20:
+    - text: "VIIT received AICTE approval for the academic year 2019-20, supporting its academic programs."
+  utter_ask_aicte_2018_19:
+    - text: "VIIT was approved by AICTE for the academic year 2018-19, affirming its technical education standards."
+  utter_ask_jntuk_affiliation_2019_20:
+    - text: "VIIT was granted permanent affiliation by JNTUK for the academic year 2019-20, recognizing its academic excellence."
+  utter_ask_jntuk_affiliation_2012_23:
+    - text: "VIIT held permanent affiliation with JNTUK from 2012 to 2023, ensuring consistent academic standards."
+  utter_ask_ugc_autonomous_2017:
+    - text: "VIIT was granted autonomous status by UGC in 2017, allowing flexibility in curriculum and academic processes."
+  utter_ask_ugc_autonomous_2024:
+    - text: "VIIT received autonomous status from UGC in 2024, enhancing its academic independence."
+
+  # === Research Programs ===
+  utter_ask_jntugv_research_ce_2023_25:
+    - text: "VIIT is recognized as a JNTUGV Research Center for Civil Engineering for 2023-25, supporting advanced research."
+  utter_ask_jntugv_research_cse_2023_25:
+    - text: "VIIT is recognized as a JNTUGV Research Center for Computer Science Engineering for 2023-25, fostering cutting-edge research."
+  utter_ask_jntugv_research_ece_2023_25:
+    - text: "VIIT is recognized as a JNTUGV Research Center for Electronics and Communication Engineering for 2023-25, promoting innovative research."
+  utter_ask_jntugv_research_eee_2023_25:
+    - text: "VIIT is recognized as a JNTUGV Research Center for Electrical and Electronics Engineering for 2023-25, supporting research excellence."
+  utter_ask_jntugv_research_mech_2023_25:
+    - text: "VIIT is recognized as a JNTUGV Research Center for Mechanical Engineering for 2023-25, advancing engineering research."
+  utter_ask_jntugv_research_mba_2023_25:
+    - text: "VIIT is recognized as a JNTUGV Research Center for Master of Business Administration for 2023-25, promoting management research."
+  utter_ask_jntuk_research_cse_2016_17:
+    - text: "VIIT was recognized as a JNTUK Research Center for Computer Science Engineering for 2016-17, supporting research activities."
+  utter_ask_jntuk_research_mech_2016_17:
+    - text: "VIIT was recognized as a JNTUK Research Center for Mechanical Engineering for 2016-17, fostering engineering research."
+  utter_ask_jntuk_research_ece_2017_18:
+    - text: "VIIT was recognized as a JNTUK Research Center for Electronics and Communication Engineering for 2017-18, promoting innovative research."
+  utter_ask_jntuk_research_cse_2018_19:
+    - text: "VIIT was recognized as a JNTUK Research Center for Computer Science Engineering for 2018-19, advancing research efforts."
+  utter_ask_jntuk_research_eee_2018_19:
+    - text: "VIIT was recognized as a JNTUK Research Center for Electrical and Electronics Engineering for 2018-19, supporting technical research."
+  utter_ask_jntuk_research_mba_2018_19:
+    - text: "VIIT was recognized as a JNTUK Research Center for Master of Business Administration for 2018-19, promoting management research."
+  utter_ask_jntuk_research_ece_2019_20:
+    - text: "VIIT was recognized as a JNTUK Research Center for Electronics and Communication Engineering for 2019-20, fostering research excellence."
+
+  # === General Responses ===
+  
+
+  # === Infrastructure & Policies ===
+  utter_ask_infrastructure:
+    - text: "VIIT boasts a spacious green campus, state-of-the-art computer center, digital library, well-ventilated classrooms, and modern laboratories, ensuring a conducive learning environment."
+  utter_ask_policies:
+    - text: "VIIT follows policies like Adjunct Faculty Policy and Infrastructure Maintenance Policy, alongside best practices and staff welfare initiatives to support holistic development."
+  utter_ask_awards:
+    - text: "VIIT has an excellent track record of placements and has received accolades for its contributions to technical education, driven by the efforts of management, faculty, and students."
+
+  utter_placement_2023:
+    - text: |
+        **2022-2023 Placements:**
+        - Total Students: 1296
+        - Placed: 1104 (87.11%)
+        - Higher Education: 19
+        - Entrepreneurs: 6
+
+  utter_placement_2022:
+    - text: |
+        **2021-2022 Placements:**
+        - Total Students: 1220
+        - Placed: 1011 (86.72%)
+        - Higher Education: 40
+        - Entrepreneurs: 7
+
+  utter_placement_2021:
+    - text: |
+        **2020-2021 Placements:**
+        - Total Students: 1268
+        - Placed: 1051 (86.67%)
+        - Higher Education: 40
+        - Entrepreneurs: 8
+
+  utter_no_data:
+    - text: "Data for that year is unavailable. Please ask about 2020-2021, 2021-2022, or 2022-2023."  
+
+
+  utter_library_overview:
+    - text: |
+        **Central Library Overview:**
+        - Area: 15,451 Sq.m
+        - Seating Capacity: 200+ students
+        - Physical Collection: 54,815 books, 11,335 titles
+        - Digital Section: 60 systems with 75 MBPS speed
+        - Services: Photocopying, audio-visual rooms, reprographic facility
+
+  utter_resource_counts:
+    - text: |
+        **Library Resources:**
+        1. Books: 54,815
+        2. Titles: 11,335  
+        3. Student Book Bank: 664
+        4. Project Reports: 1,235
+        5. CDs/DVDs: 1,680
+        6. Scopus Publications: 216 (Total), 74 (Last Year)
+
+  utter_ejournals:
+    - text: |
+        **E-Journal Subscriptions (2023):**
+        - IEEE: 169 journals [IEEE Explore]
+        - ASCE: 38 journals [ASCE]  
+        - ASME: 29 journals [ASME]
+        - Elsevier: 275 journals [Elsevier]
+        - J-Gate: 4,606 journals [J-Gate]
+        - Access via: DELNET, INFLIBNET-N-List
+
+  utter_ebooks:
+    - text: |
+        **E-Book Collections:**
+        - McGraw Hill: 380 books
+        - EBSCO: 6,226 engineering e-books
+        - Access via: KNIMBUS, NLIST-INFLIBNET
+  utter_naac_accreditation:
+    - text: |
+        **NAAC Accreditations:**
+        • Cycle-I (2012): A Grade (3.01/4.00)
+        • Cycle-II (2017): A Grade (3.15/4.00)
+        • Cycle-III (2024): A++ Grade (3.41/4.00)
+
+  utter_nba_accreditation:
+    - text: |
+        **NBA Accreditations:**
+        • 2009-2012: 4 Programs
+        • 2017-2020: 6 Programs
+        • 2020-2023: 8 Programs
+        • 2024-2026: 10 Programs (All Eligible Programs)
+
+  utter_ugc_certification:
+    - text: |
+        **UGC Certifications:**
+        • Received continuous 2(f) & 12(B) status since 2002
+        • Valid until further notice from UGC
+
+  utter_accreditation_links:
+    - text: |
+        **Verification Links:**
+        • NAAC: https://naac.gov.in
+        • NBA: https://nbaind.org
+        • UGC: https://ugc.gov.in
+
+
+  utter_hostel_capacity:
+    - text: |
+        **Hostel Capacity:**
+        • Boys: 220 students
+        • Girls: 400 students
+
+  utter_hostel_rooms:
+    - text: |
+        **Hostel Rooms:**
+        • Boys Hostel: 60 rooms
+        • Girls Hostel: 150 rooms
+
+  utter_hostel_facilities:
+    - text: |
+        **Hostel Facilities:**
+        • Television with DTH connection
+        • Wi-Fi access
+        • Common recreation areas
+        • 24/7 security      
+
+
+
+  utter_mess_details:
+    - text: |
+        **Institute Mess:**
+        • Serves nutritious vegetarian meals and snacks
+        • Strict hygiene standards maintained
+        • Provides both lunch and evening snacks
+        • Caters to all hostel students
+
+  utter_canteen_details:
+    - text: |
+        **Institute Canteen:**
+        • Offers healthy food at subsidized rates
+        • Open to all students and staff
+        • Serves both meals and snacks
+        • Quality and hygiene monitored regularly
+
+  utter_food_hygiene:
+    - text: |
+        **Food Quality Assurance:**
+        • Regular kitchen inspections
+        • Certified food handlers
+        • Daily quality checks of ingredients
+        • Feedback system for students    
+
+
+
+  utter_sports_philosophy:
+    - text: |
+        **Sports Philosophy:**
+        • Designed to reduce student stress and improve performance
+        • Encourages holistic development
+        • Features both competitive and recreational sports
+
+  utter_indoor_facilities:
+    - text: |
+        **Indoor Facilities:**
+        • Caroms: 10 boards
+        • Table Tennis: 2 tables
+        • Chess: 15 sets
+        • Other board games available
+
+  utter_outdoor_facilities:
+    - text: |
+        **Outdoor Facilities:**
+        • Cricket: 1 ground (65x65m) + 2 practice nets
+        • Volleyball: 5 courts
+        • Basketball: 1 ground
+        • Badminton: 3 courts
+        • Kabaddi: 2 courts
+        • Football: 1 ground
+        • Lawn Tennis: 1 court
+
+  utter_athletic_facilities:
+    - text: |
+        **Athletic Facilities:**
+        • 400m standard athletic track
+        • Field events:
+          - Discus Throw
+          - Shot Put
+          - High Jump
+          - Long Jump
+          - Javelin Throw    
+
+
+
+  utter_total_infrastructure:
+    - text: |
+        **Total Infrastructure:**
+        • Total Area: 45,892 Sq.m
+        • Instructional Area: 27,959 Sq.m
+        • Administration Area: 3,200 Sq.m
+        • Amenities Area: 4,800 Sq.m
+        • Circulation Area: 9,933 Sq.m
+        • Area per student: 12.4 Sq.m
+
+  utter_classroom_details:
+    - text: |
+        **Classroom Facilities:**
+        • Total Classrooms: 93
+        • Classroom Size: 80-140 Sq.m each
+        • Seminar Halls: 10
+        • Modern teaching aids available
+
+  utter_lab_details:
+    - text: |
+        **Laboratory Facilities:**
+        • Total Labs: 108
+        • Research Labs: 4
+        • Lab Size: 80-150 Sq.m each
+        • State-of-the-art equipment
+
+  utter_area_distribution:
+    - text: |
+        **Area Distribution:**
+        1. Instructional: 27,959 Sq.m (61%)
+        2. Administration: 3,200 Sq.m (7%)
+        3. Amenities: 4,800 Sq.m (10%)
+        4. Circulation: 9,933 Sq.m (22%)
+
+
+  utter_discipline_rules:
+    - text: |
+        **Discipline Rules at VIIT**:
+        1. **Ragging**: Strictly prohibited (Government order).  
+        2. **Mobile Phones**: Confiscated if found.  
+        3. **Punctuality**: Latecomers barred after 5 minutes.  
+        4. **Property Damage**: Severe penalties apply.  
+        5. **ID Cards**: Mandatory on campus.  
+        *(Full list: [Link to Handbook]).*
+
+  utter_report_violation:
+    - text: |
+        **Report Violations To**:  
+        - Discipline Cell (Room 101, Admin Block).  
+        - Email: discipline@viit.edu.in.  
+        - Anonymous complaints accepted via [Online Form].  
+        *Urgent cases: Call +91-XXX-XXXX-XXXX.*
+
+  utter_penalties:
+    - text: |
+        **Penalties**:  
+        - Ragging: Expulsion + Legal action.  
+        - Phones: Confiscation + Parent meeting.  
+        - Property Damage: Fine + Suspension.  
+        - Strikes: Immediate suspension.  
+
+
+
+
+  utter_civil_dept:
+    - text: |
+        **Civil Engineering Department**:
+        - *Established*: 2011  
+        - *HOD*: Dr. Govinda Lalam  
+        - *Programs*: B.Tech (120 seats), M.Tech Transportation (18 seats)  
+        - *Faculty*: IIT/NIT alumni with industry experience  
+        - *Labs*: Advanced Concrete, GIS, Surveying  
+        - *Placements*: 90% in core sectors (L&T, Tata Projects)  
+        - *Special*: Societal problem-based projects  
+
+  utter_civil_hod_info:
+    - text: |
+        **Head of Civil Department**:  
+        - *Name*: Dr. Govinda Lalam  
+        - *Role*: Professor & HOD  
+        - *Specialization*: Transportation Engineering  
+        - *Contact*: hod.civil@viit.edu.in | Office: Block A-101  
+        - *Research*: Published 50+ papers in transportation systems  
+
+  utter_civil_academics:
+    - text: |
+        **Academic Programs**:  
+        - *UG*: B.Tech Civil Engineering (4 years)  
+        - *PG*: M.Tech Transportation Engineering  
+        - *Core Subjects*: Structural Analysis, Geotech, Hydrology  
+        - *Software*: AutoCAD, STAAD.Pro, Revit  
+        - *Internship*: Mandatory 6-week industry training  
+
+
+
+
+  utter_eee_dept:
+    - text: |
+        **EEE Department Highlights**:
+        - *Established*: 2002
+        - *HOD*: Dr. Pudi Sekhar
+        - *Programs*: B.Tech (EEE), M.Tech (Power & Industrial Drives)
+        - *Faculty*: 38 members (IIT/NIT alumni)
+        - *Research Areas*: Power Systems, Renewable Energy, HV Engineering
+        - *Placements*: 60% campus recruitment
+        - *Special*: ₹55L funded projects, 90% pass rate
+
+  utter_eee_hod_info:
+    - text: |
+        **Head of EEE Department**:
+        - *Name*: Dr. Pudi Sekhar
+        - *Specialization*: Power Systems
+        - *Research*: Published in int'l journals
+        - *Contact*: hod.eee@viit.edu.in
+        - *Vision*: Ethical engineers for renewable energy sector
+
+  utter_eee_academics:
+    - text: |
+        **Academic Programs**:
+        - *UG*: B.Tech EEE (4 years)
+        - *PG*: M.Tech Power & Industrial Drives
+        - *Labs*: HV Engineering, Power Electronics, Control Systems
+        - *Software*: MATLAB, ETAP, PSCAD
+
+  utter_eee_hod_message:
+    - text: |
+        **Message from Dr. Pudi Sekhar**:
+        "We train engineers to lead in:
+        1. Renewable energy integration
+        2. Smart grid technologies
+        3. Ethical power systems design
+        Our graduates excel in APGENCO, BHEL, NTPC etc."       
+
+
+
+
+  utter_mech_dept:
+    - text: |
+        **Mechanical Engineering Department**:
+        - *Established*: 2004 | *Research Center*: Yes  
+        - *HOD*: Dr. S. Rambabu  
+        - *Programs*: B.Tech (180 seats), M.Tech Machine Design (18 seats)  
+        - *Focus Areas*: Thermal Engg, CAD/CAM, Materials Science  
+        - *Faculty*: Industry-experienced with global recognition  
+        - *Labs*: Advanced CAD, Thermal Systems, Robotics  
+        - *Placements*: Strong recruitment in L&T, Tata Motors, ISRO  
+
+  utter_mech_hod_info:
+    - text: |
+        **Head of Mechanical Department**:  
+        - *Name*: Dr. S. Rambabu  
+        - *Specialization*: Machine Design & Robotics  
+        - *Contact*: hod.mech@viit.edu.in | Office: Block B-205  
+        - *Message*: "We prepare engineers to innovate in safety, sustainability, and global quality of life."  
+
+  utter_mech_academics:
+    - text: |
+        **Academic Programs**:  
+        - *UG*: B.Tech Mechanical Engineering (4 years)  
+        - *PG*: M.Tech Machine Design  
+        - *Core Subjects*: Thermodynamics, FEM, Automation  
+        - *Software*: ANSYS, SolidWorks, CATIA  
+        - *Internship*: Mandatory 8-week industry training
+
+
+
+
+  utter_ece_dept:
+    - text: |
+        **ECE Department Highlights**:
+        - *Established*: 2002 | *NBA Accredited*: Yes  
+        - *HOD*: Dr. R. Uma Maheswari  
+        - *Programs*:  
+          - UG: B.Tech ECE (180 seats)  
+          - PG: M.Tech VLSI & ES (9 seats), M.Tech Comm. Engg (9 seats)  
+        - *Research*: 133 publications (last 5 years), 20 patents  
+        - *Projects*: DST SERB (₹85.63L), AICTE Modrobs (₹15.09L)  
+        - *Placements*: 90% average (last 5 years)  
+        - *Labs*: VLSI, Advanced Comm., Embedded Systems  
+
+  utter_ece_hod_info:
+    - text: |
+        **Head of ECE Department**:  
+        - *Name*: Dr. R. Uma Maheswari  
+        - *Vision*: "To develop a center of excellence for societal welfare through technical education."  
+        - *Contact*: hod.ece@viit.edu.in | Office: Block C-301  
+        - *Research Focus*: Communication Systems, VLSI Design  
+
+  utter_ece_academics:
+    - text: |
+        **Academic Programs**:  
+        - *UG*: B.Tech ECE (4 years)  
+        - *PG*: M.Tech VLSI & Embedded Systems / Communication Engg  
+        - *Core Areas*: Signal Processing, IoT, RF Engineering  
+        - *Software*: Cadence, MATLAB, Xilinx  
+        - *Internship*: Mandatory 6-week industry training  
+  utter_ece_hod_message:
+    - text: |
+        **Message from Dr. R. Uma Maheswari, HOD-ECE**:
+        "Our vision is to develop this department into a center of excellence that:
+        1. Combines theoretical knowledge with cutting-edge practical skills
+        2. Fosters innovation through research (133 publications in 5 years)
+        3. Prepares students for industry 4.0 challenges (90% placement rate)
+        4. Contributes to societal welfare through technology        
+
+
+
+
+
+  utter_cse_dept:
+    - text: |
+        **CSE Department Highlights**:
+        - *Established*: 2002 | *NBA Accredited*: 2009 & 2017  
+        - *HOD*: Mr. B. Dinesh Reddy  
+        - *Programs*:  
+          - UG: B.Tech CSE (240 seats)  
+          - PG: M.Tech CSE & Software Engineering  
+        - *Faculty*: 49 full-time + Visiting Professors  
+        - *Placements*: 80% industry, 10-15% higher studies  
+        - *Research*: Funded projects (Govt. & International)  
+        - *Labs*: AI/ML, Networks, Software Engineering  
+
+  utter_cse_hod_info:
+    - text: |
+        **Head of CSE Department**:  
+        - *Name*: Mr. B. Dinesh Reddy  
+        - *Focus Areas*: Computer Systems, Software Engineering  
+        - *Contact*: hod.cse@viit.edu.in | Office: Block A-21
+        - *Initiatives*: Hackathons, Industry Collaborations  
+
+  utter_cse_academics:
+    - text: |
+        **Academic Programs**:  
+        - *UG*: B.Tech CSE (4 years)  
+        - *PG*: M.Tech CSE & Software Engineering  
+        - *Core Areas*: AI/ML, Cybersecurity, Cloud Computing  
+        - *Software*: TensorFlow, AWS, Docker  
+        - *Activities*: ACM Chapter, Annual Hackathons  
+
+  utter_cse_hod_message:
+    - text: |
+        **Message from Mr. B. Dinesh Reddy, HOD-CSE**:
+        "Our department focuses on:
+        1. Cutting-edge academics (NBA accredited)
+        2. Research in AI, Systems, and Intelligent Computing
+        3. 80%+ placements in top tech companies
+        4. Holistic development through ACM and hackathons       
+      
+  
+
+
+
+
+  utter_acse_dept:
+    - text: |
+        **ACSE Department Highlights**:
+        - *Established*: 2022  
+        - *HOD*: Mrs. K. Swathi  
+        - *Programs*: B.Tech (Cyber Security, AI, Data Science) - 240 seats  
+        - *Faculty*: 13 full-time + cross-disciplinary experts  
+        - *Research*: Govt. and international funded projects  
+        - *Labs*: AI/ML, Cybersecurity, Cloud Computing  
+        - *Activities*: ACM Chapter, Annual Hackathons  
+
+  utter_acse_hod_info:
+    - text: |
+        **Head of ACSE Department**:  
+        - *Name*: Mrs. K. Swathi  
+        - *Focus Areas*: AI, Cybersecurity  
+        - *Contact*: hod.acse@viit.edu.in | Office: Block A-41  
+        - *Initiatives*: Research publications, Industry collaborations  
+
+  utter_acse_academics:
+    - text: |
+        **Academic Programs**:  
+        - *UG*: B.Tech in Cyber Security, AI, Data Science  
+        - *Core Areas*: ML, Ethical Hacking, Big Data Analytics  
+        - *Software*: TensorFlow, Wireshark, Tableau  
+        - *Internship*: Mandatory 8-week industry training  
+
+  utter_acse_hod_message:
+    - text: |
+        **Message from Mrs. K. Swathi, HOD-ACSE**:
+        "We focus on:
+        1. Cutting-edge specializations (AI, Cyber Security, Data Science)  
+        2. Research-driven curriculum with 100% practical exposure  
+        3. Industry 4.0 readiness through hackathons and certifications  
+        4. Global collaborations for research and placements  
+
+
+
+
+  utter_it_dept:
+    - text: |
+        **IT Department Highlights**:
+        - *Established*: 2002  
+        - *HOD*: Dr. G. Neelima  
+        - *Programs*: B.Tech IT & M.Tech IT  
+        - *Faculty*: 15 dedicated members  
+        - *Achievements*: Excellent GATE/GRE ranks  
+        - *Placements*: Strong campus recruitment  
+        - *Focus*: Industry-aligned problem solving  
+
+  utter_it_hod_info:
+    - text: |
+        **Head of IT Department**:  
+        - *Name*: Dr. G. Neelima  
+        - *Vision*: "Creating independent thinkers for real-time applications"  
+        - *Contact*: hod.it@viit.edu.in | Office: Block F-301  
+        - *Research*: Software implementation for business needs  
+
+  utter_it_academics:
+    - text: |
+        **Academic Programs**:  
+        - *UG*: B.Tech IT (4 years)  
+        - *PG*: M.Tech IT  
+        - *Core Areas*: Software Engineering, Data Structures, Cloud Computing  
+        - *Software*: Java, Python, AWS  
+        - *Internship*: Mandatory industry training  
+
+  utter_it_hod_message:
+    - text: |
+        **Message from Dr. G. Neelima, HOD-IT**:
+        "Our department focuses on:
+        1. Implementing cutting-edge software solutions
+        2. Developing problem-solving skills
+        3. 100% industry-relevant curriculum
+        4. Excellent placement record
+
+
+
+
+
+  utter_ecm_dept:
+    - text: |
+        **ECM Department Highlights**:
+        - *Program*: Integrated Electronics & Computer Engineering  
+        - *Duration*: 4 years  
+        - *Focus*: Hardware-software co-design for ICT applications  
+        - *Faculty*: Experts from Electronics & CS backgrounds  
+        - *Applications*: Consumer tech to aerospace systems  
+        - *Career Scope*: High demand in IoT, embedded systems  
+
+  utter_ecm_hod_info:
+    - text: |
+        **Head of ECM Department**:  
+        - *Name*: Dr. H. Devanna  
+        - *Specialization*: Hardware-Software Integration  
+        - *Contact*: hod.ecm@viit.edu.in | Office: Block G-202  
+        - *Vision*: "Bridging electronics and computing for real-world solutions"  
+
+  utter_ecm_academics:
+    - text: |
+        **Academic Program**:  
+        - *Core Areas*:  
+          - Electronics: Circuit design, Embedded systems  
+          - Computing: Data structures, OS, Networking  
+        - *Languages*: C, Python, Verilog  
+        - *Labs*: IoT, VLSI, Computer Architecture  
+        - *Projects*: Mandatory hardware-software integration  
+
+  utter_ecm_hod_message:
+    - text: |
+        **Message from Dr. H. Devanna**:  
+        "ECM prepares you for:  
+        1. Designing integrated hardware-software systems  
+        2. Solving real-world ICT challenges  
+        3. Thriving in IoT/AI-driven industries  
+        4. Becoming versatile engineers for Industry 4.0  
+
+
+
+
+  utter_aids_dept:
+    - text: |
+        **AI&DS Department Highlights**:
+        - *Established*: 2020  
+        - *HOD*: Dr. T.V. Madhusudan Rao  
+        - *Focus Areas*: AI, ML, Deep Learning, Big Data Analytics  
+        - *Career Roles*: Data Engineer, AI Specialist, Research Scientist  
+        - *Industry Sectors*: Healthcare, eCommerce, Biotechnology  
+        - *Unique Edge*: Strong industry-academia research collaborations  
+
+  utter_aids_hod_info:
+    - text: |
+        **Head of AI&DS Department**:  
+        - *Name*: Dr. T.V. Madhusudan Rao  
+        - *Vision*: "Creating industry-ready AI professionals with research mindset"  
+        - *Contact*: hod.aids@viit.edu.in | Office: Block H-303  
+        - *Research*: Applied AI for societal impact  
+
+  utter_aids_academics:
+    - text: |
+        **Academic Program**:  
+        - *Core Technologies*:  
+          - AI/ML: Neural Networks, Computer Vision  
+          - Data Science: Python, R, SQL, Hadoop  
+        - *Specializations*:  
+          - Healthcare Analytics  
+          - Business Intelligence  
+        - *Projects*: Mandatory real-world capstone projects  
+
+  utter_aids_hod_message:
+    - text: |
+        **Message from Dr. T.V. Madhusudan Rao**:
+        "Our department offers:
+        1. Cutting-edge curriculum in AI/ML (since 2020)
+        2. Hands-on training with industry projects
+        3. 100% placement support in top tech companies
+        4. Research opportunities in emerging domains
+
+        We transform students into:
+        - Data Engineers
+        - AI Researchers
+        - Tech Entrepreneurs
+        Join us to shape the future of intelligent systems!"
+
+
+
+
+
+
+  utter_bsh_dept:
+    - text: |
+        **BS&H Department Highlights**:
+        - *Subjects*: Math, Physics, Chemistry, English, Env. Science  
+        - *Faculty*: 20 Doctorates, 6 pursuing PhDs, 7 NET qualified  
+        - *Research*: 110+ papers, ₹34L funded project (Dr. Yellareswara Rao)  
+        - *Awards*: Gold Medals, Best Teacher, Vijetha, Prathiba  
+        - *Student Development*:  
+          - Counseling system  
+          - National/International competition winners  
+          - Live-Model Exhibitions  
+
+  utter_bsh_hod_info:
+    - text: |
+        **Head of BS&H Department**:  
+        - *Name*: Dr. T.V.S.P.V. Satyaguru  
+        - *Mission*: "Transforming diverse students into globally competent professionals"  
+        - *Contact*: hod.bsh@viit.edu.in | Office: Block J-401  
+        - *Special Note*: Oversees I B.Tech foundation courses  
+
+  utter_bsh_academics:
+    - text: |
+        **Academic Focus**:  
+        - *Core Role*: Bridging school-to-engineering transition  
+        - *Key Programs*:  
+          - Intensive Math/Physics foundation  
+          - Technical English communication  
+          - Environmental awareness  
+        - *Special*:  
+          - Faculty Development Programs  
+          - Soft Skills Workshops  
+
+  utter_bsh_hod_message:
+    - text: |
+        **Message from Dr. Satyaguru**:
+        "We pride ourselves on:
+        1. 18+ years of academic excellence (Top 3 in university)
+        2. Transforming diverse students through:
+           - Strong counseling
+           - Holistic development
+        3. Faculty with:
+           - International post-docs
+           - 150+ research publications
+        4. Creating globally-ready engineers from day one!"
+
+
+
+
+
+
+  
+
+
+
+
+  utter_mba_dept:
+    - text: |
+        **MBA Department Highlights**:
+        - *Established*: 2006-07  
+        - *Vision*: Create business leaders with global expertise  
+        - *Pedagogy*: Case studies, live projects, business games  
+        - *Faculty*: Industry-experienced professionals  
+        - *Recruiters*: IBM, Cognizant, Axis Bank, Genpact  
+        - *Unique*: Value-based education with social commitment  
+
+  utter_mba_hod_info:
+    - text: |
+        **Head of MBA Department**:  
+        - *Name*: Dr. B. Chandra  
+        - *Mission*: "Blending academic rigor with industry relevance"  
+        - *Contact*: hod.mba@viit.edu.in | Office: Block K-501  
+        - *Specialization*: Strategic Management  
+
+  utter_mba_academics:
+    - text: |
+        **MBA Program Structure**:  
+        - *Duration*: 2 years  
+        - *Core Focus*:  
+          - Leadership development  
+          - Analytical decision making  
+        - *Practical Components*:  
+          - 6-month industry internship  
+          - 10+ live corporate projects  
+          - Weekly expert interactions  
+
+  utter_mba_hod_message:
+    - text: |
+        **Message from Dr. B. Chandra**:
+        "Our MBA program offers:
+        1. Industry-designed curriculum
+        2. 100% practical learning through:
+           - Live projects with 50+ companies
+           - Business simulation games
+        3. Placement track record:
+           - 90%+ in core management roles
+           - ₹8LPA average package
+        4. Global perspective with local relevance"
+
+
+
+
+  utter_mca_dept:
+    - text: |
+        **MCA Department Highlights**:
+        - *Established*: 2006  
+        - *Program*: 2-year Master of Computer Applications  
+        - *Faculty*: 8 dedicated members with industry exposure  
+        - *Pedagogy*: Outcome-based education with 70% practical focus  
+        - *Key Focus*:  
+          • Teamwork and excellence  
+          • Industry-aligned curriculum  
+          • Research-driven projects  
+        - *Success Metric*: 100% placement support  
+
+  utter_mca_hod_info:
+    - text: |
+        **Head of MCA Department**:  
+        - *Name*: Dr. Chandrasekharan Dinesh  
+        - *Vision*: "Creating process-oriented IT professionals"  
+        - *Contact*: hod.mca@viit.edu.in | Office: Block L-601  
+        - *Research*: Software Engineering best practices  
+
+  utter_mca_academics:
+    - text: |
+        **Academic Program**:  
+        - *Core Components*:  
+          • Advanced Programming (Java/Python)  
+          • Database Management Systems  
+          • Web Technologies  
+        - *Practical Training*:  
+          • 6-month industry internship  
+          • Live project development  
+          • Hackathons and coding challenges  
+        - *Special Value*:  
+          • Emphasis on SDLC processes  
+          • Agile methodology training  
+
+  utter_mca_hod_message:
+    - text: |
+        **Message from Dr. Chandrasekharan Dinesh**:
+        "Our MCA program emphasizes:
+        1. Excellence through teamwork
+        2. 100% practical orientation
+        3. Strong industry partnerships
+        4. Research-informed teaching
+
+        We transform students into:
+        - Full-stack developers
+        - Software architects
+        - IT project managers
+        Join us to build world-class technical skills!"
+
+
+
+
+
+  utter_default_greet:
+    - text: "Welcome to Vignan's Institute Chatbot! Please select who you are:"
+      buttons:
+        - title: "🎓 Student"
+          payload: "/identify_student"
+        - title: "👨‍🏫 Faculty"
+          payload: "/identify_faculty"
+        - title: "👪 Parent"
+          payload: "/identify_parent"
+        - title: "🏢 Administration"
+          payload: "/identify_admin"
+        - title: "👋 Guest"
+          payload: "/identify_guest"
+
+  utter_student_welcome:
+    - text: |
+        🎓 Welcome dear student! 
+        May your academic journey be fulfilling and successful! 💯
+        
+        How can I assist you today?
+      buttons:
+        - title: "Academic Help"
+          payload: "/academic_help"
+        - title: "Campus Life"
+          payload: "/campus_life"
+
+  utter_faculty_welcome:
+    - text: |
+        👨‍🏫 Welcome respected faculty member!
+        Wishing you a productive day of teaching and research. 📚
+        
+        How may I assist you today?
+
+  utter_parent_welcome:
+    - text: |
+        👪 Welcome esteemed parent/guardian!
+        We appreciate your trust in Vignan's Institute. 🤝
+        
+        What information would you like?
+
+  utter_admin_welcome:
+    - text: |
+        🏢 Welcome valued administrator!
+        Thank you for your dedication to our institute. 💼
+        
+        How can I help you today?
+
+  utter_guest_welcome:
+    - text: |
+        👋 Welcome to Vignan's Institute!
+        We're delighted to have you here. 😊
+        
+        What would you like to know about our institute?
+
+actions:
+  - action_time_based_greet
+  - action_festival_greet
+
+       
+
+
+        
+            
+### 👉 Actions (Custom actions if any)
+
+  - action_restart  # Optional: Reset conversation
+
+
+  - action_hello_world  
+
+### 👉 Session Configuration
+session_config:
+  session_expiration_time: 60  # Session expires after 60 minutes
+  carry_over_slots_to_new_session: true  # Retain slot values
+
+
+
+
+
+
+
+
+  utter_admission_dates:
+    - text: "Admissions typically begin in May or June after entrance exams."
+
+  utter_admission_categories:
+    - text: "We accept AP EAMCET, JEE Mains, diploma lateral entries, and management quota applications."
+
+  utter_online_steps:
+    - text: "Visit our website → Fill out the form → Upload required documents → Pay the fee → Submit."
+
+  utter_management_quota:
+    - text: "Yes, you can apply through management quota without entrance exams. Higher fees apply."
+
+  utter_confirmation_info:
+    - text: "Your admission is confirmed after document verification and fee payment."
+
+  utter_btech_eligibility:
+    - text: "You need Physics, Chemistry, and Mathematics in 12th grade and a valid entrance score."
+
+  utter_backlog_policy:
+    - text: "No, you must clear all subjects in 12th before applying."
+
+  utter_foreign_applicant_info:
+    - text: "International students can apply under the NRI/foreign student quota."
+
+
+
+
+  utter_accepted_exams:
+    - text: "VIIT accepts AP EAMCET, JEE Mains for UG programs, and GATE for PG admissions."
+
+  utter_cse_cutoff:
+    - text: "The AP EAMCET cut-off for CSE varies each year. Please check the latest updates on the official website."
+
+  utter_cutoff_relaxation:
+    - text: "Yes, reserved categories like SC/ST have relaxed cut-off marks."
+
+  utter_low_rank_admission:
+    - text: "Admission is possible with a low rank, but you may need to choose branches with lower demand."
+
+  utter_lateral_cutoff:
+    - text: "Lateral entry cut-offs are based on your Diploma scores and vary by branch."
+
+
+
+
+
+  utter_annual_fee:
+    - text: "The annual tuition fee for B.Tech is ₹57,650, excluding hostel and exam fees."
+
+  utter_mgmt_fee_info:
+    - text: "Yes, management quota students pay higher fees than regular students."
+
+  
+
+  utter_payment_methods:
+    - text: "Accepted payment methods include online banking, UPI, demand draft, and direct deposit at the campus."
+
+  utter_late_fee_penalty:
+    - text: "Yes, late payments incur a fine."
+
+
+
+
+
+
+  utter_scholarship_availability:
+    - text: "Yes, VIIT offers both merit-based and need-based scholarships."
+
+  utter_merit_scholarship_criteria:
+    - text: "Generally, students scoring above 90% in 12th grade qualify for merit scholarships."
+
+  utter_government_scholarship:
+    - text: "VIIT students can apply for various state and central government scholarship schemes."
+
+  utter_scholarship_amount:
+    - text: "The scholarship amount varies depending on the student's eligibility and the scheme."
+
+  utter_ews_financial_aid:
+    - text: "Yes, financial aid is available for economically weaker students under the EWS quota."
+  
+
+
+
+
+
+  utter_hostel_availability:
+    - text: "Yes, separate boys and girls hostels are available."
+
+  utter_hostel_fee:
+    - text: "The hostel fee is approximately ₹90,000 per year."
+
+  utter_hostel_admission_criteria:
+    - text: "Hostel admission is not based on merit — it's first-come, first-served."
+
+
+
+
+
+
+  utter_campus_visit_info:
+    - text: "Yes, campus tours are available on request. You can contact the admissions office to schedule one."
+
+  utter_admission_updates:
+    - text: "Visit vignaniit.edu.in for the latest admission updates and announcements."
+   
+
+  utter_fee_installments:
+    - text: "Yes, fees can be paid in two installments per year."
+    - text: "The fee can be paid in installments as per the VIIT fee policy. For more details, contact the admissions office."
+
+
+
+
+  utter_default:
+    - text: "I'm sorry, I didn’t understand that. Could you please rephrase?"

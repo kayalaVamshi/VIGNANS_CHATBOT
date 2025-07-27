@@ -1,0 +1,928 @@
+version: "3.1"
+
+rules:
+  # === Contact Information ===
+  - rule: Provide contact phone number
+    steps:
+      - intent: ask_contact_phone
+      - action: utter_ask_contact_phone
+
+  - rule: Provide contact email ID
+    steps:
+      - intent: ask_contact_email
+      - action: utter_ask_contact_email
+
+  - rule: Provide contact address
+    steps:
+      - intent: ask_contact_address
+      - action: utter_ask_contact_address
+
+  - rule: Provide contact location
+    steps:
+      - intent: ask_contact_location
+      - action: utter_ask_contact_location
+
+  # === Chairman Details ===
+  - rule: Provide chairman's name
+    steps:
+      - intent: ask_chairman_name
+      - action: utter_ask_chairman_name
+
+  - rule: Provide chairman's vision
+    steps:
+      - intent: ask_chairman_vision
+      - action: utter_ask_chairman_vision
+
+  - rule: Provide chairman's concerns
+    steps:
+      - intent: ask_chairman_concerns
+      - action: utter_ask_chairman_concerns
+
+  - rule: Provide chairman's message
+    steps:
+      - intent: ask_chairman_message
+      - action: utter_ask_chairman_message
+
+  # === VIIT & Education Policies ===
+  - rule: Provide VIIT's approach
+    steps:
+      - intent: ask_viit_approach
+      - action: utter_ask_viit_approach
+
+  - rule: Provide education reforms info
+    steps:
+      - intent: ask_education_reforms
+      - action: utter_ask_education_reforms
+
+  - rule: Provide views on AP colleges
+    steps:
+      - intent: ask_ap_colleges
+      - action: utter_ask_ap_colleges
+
+  # === Course Information ===
+  - rule: Provide list of courses
+    steps:
+      - intent: ask_courses_offered
+      - action: utter_ask_courses_offered
+
+  - rule: Provide CSE specializations
+    steps:
+      - intent: ask_cse_specializations
+      - action: utter_ask_cse_specializations
+
+  - rule: Provide course duration
+    steps:
+      - intent: ask_course_duration
+      - action: utter_ask_course_duration
+
+  - rule: Provide course updates
+    steps:
+      - intent: ask_course_updates
+      - action: utter_ask_course_updates
+
+  - rule: Provide branch comparison
+    steps:
+      - intent: ask_course_comparison
+      - action: utter_ask_course_comparison
+
+  - rule: Provide course seat information
+    steps:
+      - intent: ask_course_seats
+      - action: utter_ask_course_seats
+
+  - rule: Provide all course details
+    steps:
+      - intent: ask_courses
+      - action: utter_ask_courses
+
+  # === Admission Process ===
+  - rule: Explain admission policy
+    steps:
+      - intent: query_admission_policy
+      - action: utter_admission_policy
+
+  - rule: Explain seat allocation
+    steps:
+      - intent: query_seat_allocation
+      - action: utter_seat_allocation
+
+  - rule: Provide reservation stats
+    steps:
+      - intent: query_reservation_stats
+      - action: utter_reservation_stats
+
+  - rule: Describe admission process
+    steps:
+      - intent: query_admission_process
+  # === Vision & Mission ===
+  - rule: Provide Vision Statement
+    steps:
+      - intent: ask_vision
+      - action: utter_ask_vision
+
+  - rule: Provide Mission Statement
+    steps:
+      - intent: ask_mission
+      - action: utter_ask_mission
+
+  - rule: Provide vision and mission information
+    steps:
+      - intent: ask_vision_mission
+      - action: utter_ask_vision_mission
+
+  # === Leadership (CEO, Rector, Principal) ===
+  - rule: Provide CEO name
+    steps:
+      - intent: ask_ceo_name
+      - action: utter_ask_ceo_name
+
+  - rule: Provide CEO message
+    steps:
+      - intent: ask_ceo_message
+      - action: utter_ask_ceo_message
+
+  - rule: Provide CEO information
+    steps:
+      - intent: ask_ceo
+      - action: utter_ask_ceo
+
+  - rule: Provide Rector Name
+    steps:
+      - intent: ask_rector_name
+      - action: utter_ask_rector_name
+
+  - rule: Provide Rector Message
+    steps:
+      - intent: ask_rector_message
+      - action: utter_ask_rector_message
+
+  - rule: Provide Rector information
+    steps:
+      - intent: ask_rector
+      - action: utter_ask_rector
+
+  - rule: Provide Principal information
+    steps:
+      - intent: ask_principal
+      - action: utter_ask_principal
+
+  # === Deans ===
+  - rule: Provide Dean Administration information
+    steps:
+      - intent: ask_dean_administration
+      - action: utter_ask_dean_administration
+
+  - rule: Provide Dean-IQAC information
+    steps:
+      - intent: ask_dean_iqac
+      - action: utter_ask_dean_iqac
+
+  - rule: Provide Dean Academics information
+    steps:
+      - intent: ask_dean_academics
+      - action: utter_ask_dean_academics
+
+  - rule: Provide Dean Evaluation information
+    steps:
+      - intent: ask_dean_evaluation
+      - action: utter_ask_dean_evaluation
+
+  - rule: Provide Dean Admissions information
+    steps:
+      - intent: ask_dean_admissions
+      - action: utter_ask_dean_admissions
+
+  - rule: Provide Dean Placement information
+    steps:
+      - intent: ask_dean_placement
+      - action: utter_ask_dean_placement
+
+  - rule: Provide Dean Faculty Affairs information
+    steps:
+      - intent: ask_dean_faculty_affairs
+      - action: utter_ask_dean_faculty_affairs
+
+  - rule: Provide Dean Research information
+    steps:
+      - intent: ask_dean_research
+      - action: utter_ask_dean_research
+
+  - rule: Provide Dean International information
+    steps:
+      - intent: ask_dean_international
+      - action: utter_ask_dean_international
+
+  - rule: Provide Dean Industry information
+    steps:
+      - intent: ask_dean_industry
+      - action: utter_ask_dean_industry
+
+  - rule: Provide Dean Student Affairs information
+    steps:
+      - intent: ask_dean_student_affairs
+      - action: utter_ask_dean_student_affairs
+
+  - rule: Provide Associate Dean Infrastructure information
+    steps:
+      - intent: ask_associate_dean_infrastructure
+      - action: utter_ask_associate_dean_infrastructure
+
+  # === Approvals & Affiliations ===
+  - rule: Provide AICTE 2024-25 approval information
+    steps:
+      - intent: ask_aicte_2024_25
+      - action: utter_ask_aicte_2024_25
+
+  - rule: Provide AICTE 2023-24 approval information
+    steps:
+      - intent: ask_aicte_2023_24
+      - action: utter_ask_aicte_2023_24
+
+  - rule: Provide AICTE 2022-23 approval information
+    steps:
+      - intent: ask_aicte_2022_23
+      - action: utter_ask_aicte_2022_23
+
+  - rule: Provide AICTE 2021-22 approval information
+    steps:
+      - intent: ask_aicte_2021_22
+      - action: utter_ask_aicte_2021_22
+
+  - rule: Provide AICTE 2020-21 approval information
+    steps:
+      - intent: ask_aicte_2020_21
+      - action: utter_ask_aicte_2020_21
+
+  - rule: Provide AICTE 2019-20 approval information
+    steps:
+      - intent: ask_aicte_2019_20
+      - action: utter_ask_aicte_2019_20
+
+  - rule: Provide AICTE 2018-19 approval information
+    steps:
+      - intent: ask_aicte_2018_19
+      - action: utter_ask_aicte_2018_19
+
+  - rule: Provide JNTUK affiliation 2019-20 information
+    steps:
+      - intent: ask_jntuk_affiliation_2019_20
+      - action: utter_ask_jntuk_affiliation_2019_20
+
+  - rule: Provide JNTUK affiliation 2012-23 information
+    steps:
+      - intent: ask_jntuk_affiliation_2012_23
+      - action: utter_ask_jntuk_affiliation_2012_23
+
+  - rule: Provide UGC autonomous 2017 information
+    steps:
+      - intent: ask_ugc_autonomous_2017
+      - action: utter_ask_ugc_autonomous_2017
+
+  - rule: Provide UGC autonomous 2024 information
+    steps:
+      - intent: ask_ugc_autonomous_2024
+      - action: utter_ask_ugc_autonomous_2024
+
+  # === Research Programs ===
+  - rule: Provide JNTUGV research CE 2023-25 information
+    steps:
+      - intent: ask_jntugv_research_ce_2023_25
+      - action: utter_ask_jntugv_research_ce_2023_25
+
+  - rule: Provide JNTUGV research CSE 2023-25 information
+    steps:
+      - intent: ask_jntugv_research_cse_2023_25
+      - action: utter_ask_jntugv_research_cse_2023_25
+
+  - rule: Provide JNTUGV research ECE 2023-25 information
+    steps:
+      - intent: ask_jntugv_research_ece_2023_25
+      - action: utter_ask_jntugv_research_ece_2023_25
+
+  - rule: Provide JNTUGV research EEE 2023-25 information
+    steps:
+      - intent: ask_jntugv_research_eee_2023_25
+      - action: utter_ask_jntugv_research_eee_2023_25
+
+  - rule: Provide JNTUGV research MECH 2023-25 information
+    steps:
+      - intent: ask_jntugv_research_mech_2023_25
+      - action: utter_ask_jntugv_research_mech_2023_25
+
+  - rule: Provide JNTUGV research MBA 2023-25 information
+    steps:
+      - intent: ask_jntugv_research_mba_2023_25
+      - action: utter_ask_jntugv_research_mba_2023_25
+
+  - rule: Provide JNTUK research CSE 2016-17 information
+    steps:
+      - intent: ask_jntuk_research_cse_2016_17
+      - action: utter_ask_jntuk_research_cse_2016_17
+
+  - rule: Provide JNTUK research MECH 2016-17 information
+    steps:
+      - intent: ask_jntuk_research_mech_2016_17
+      - action: utter_ask_jntuk_research_mech_2016_17
+
+  - rule: Provide JNTUK research ECE 2017-18 information
+    steps:
+      - intent: ask_jntuk_research_ece_2017_18
+      - action: utter_ask_jntuk_research_ece_2017_18
+
+  - rule: Provide JNTUK research CSE 2018-19 information
+    steps:
+      - intent: ask_jntuk_research_cse_2018_19
+      - action: utter_ask_jntuk_research_cse_2018_19
+
+  - rule: Provide JNTUK research EEE 2018-19 information
+    steps:
+      - intent: ask_jntuk_research_eee_2018_19
+      - action: utter_ask_jntuk_research_eee_2018_19
+
+  - rule: Provide JNTUK research MBA 2018-19 information
+    steps:
+      - intent: ask_jntuk_research_mba_2018_19
+      - action: utter_ask_jntuk_research_mba_2018_19
+
+  - rule: Provide JNTUK research ECE 2019-20 information
+    steps:
+      - intent: ask_jntuk_research_ece_2019_20
+      - action: utter_ask_jntuk_research_ece_2019_20
+
+
+
+  # === Infrastructure & Policies ===
+  - rule: Provide infrastructure information
+    steps:
+      - intent: ask_infrastructure
+      - action: utter_ask_infrastructure
+
+  - rule: Provide policies information
+    steps:
+      - intent: ask_policies
+      - action: utter_ask_policies
+
+  - rule: Provide awards information
+    steps:
+      - intent: ask_awards
+      - action: utter_ask_awards
+
+
+
+
+  - rule: Handle 2021 placements
+    steps:
+      - intent: ask_placements_2021  # Specific intent
+      - action: utter_placement_2021
+
+  - rule: Handle 2022 placements
+    steps:
+      - intent: ask_placements_2022  # Specific intent
+      - action: utter_placement_2022
+
+  - rule: Library Overview
+    steps:
+    - intent: ask_library_collection
+    - action: utter_library_overview
+
+  - rule: Resource Counts
+    steps:
+    - intent: ask_library_resources
+    - action: utter_resource_counts
+
+  - rule: E-Journals
+    steps:
+    - intent: ask_ejournals
+    - action: utter_ejournals
+
+  - rule: E-Books
+    steps:
+    - intent: ask_ebooks
+    - action: utter_ebooks
+
+
+  - rule: NAAC Response
+    steps:
+    - intent: ask_naac_accreditation
+    - action: utter_naac_accreditation
+    - action: utter_accreditation_links
+
+  - rule: NBA Response
+    steps:
+    - intent: ask_nba_accreditation
+    - action: utter_nba_accreditation
+    - action: utter_accreditation_links
+
+  - rule: UGC Response
+    steps:
+    - intent: ask_ugc_certification
+    - action: utter_ugc_certification
+    - action: utter_accreditation_links  
+
+
+
+
+  - rule: Hostel Capacity
+    steps:
+    - intent: ask_hostel_capacity
+    - action: utter_hostel_capacity
+
+  - rule: Hostel Rooms
+    steps:
+    - intent: ask_hostel_rooms
+    - action: utter_hostel_rooms
+
+  - rule: Hostel Facilities
+    steps:
+    - intent: ask_hostel_facilities
+    - action: utter_hostel_facilities    
+
+
+
+  - rule: Mess Details
+    steps:
+    - intent: ask_mess_details
+    - action: utter_mess_details
+
+  - rule: Canteen Details
+    steps:
+    - intent: ask_canteen_details
+    - action: utter_canteen_details
+
+  - rule: Food Hygiene
+    steps:
+    - intent: ask_food_hygiene
+    - action: utter_food_hygiene  
+   
+
+
+  - rule: Sports Philosophy
+    steps:
+    - intent: ask_sports_facilities
+    - action: utter_sports_philosophy
+
+  - rule: Indoor Facilities
+    steps:
+    - intent: ask_indoor_sports
+    - action: utter_indoor_facilities
+
+  - rule: Outdoor Facilities
+    steps:
+    - intent: ask_outdoor_sports
+    - action: utter_outdoor_facilities
+
+  - rule: Athletic Facilities
+    steps:
+    - intent: ask_athletic_facilities
+    - action: utter_athletic_facilities  
+
+
+  - rule: Total Infrastructure
+    steps:
+    - intent: ask_total_infrastructure
+    - action: utter_total_infrastructure
+
+  - rule: Classroom Details
+    steps:
+    - intent: ask_classroom_details
+    - action: utter_classroom_details
+
+  - rule: Lab Details
+    steps:
+    - intent: ask_lab_details
+    - action: utter_lab_details
+
+  - rule: Area Distribution
+    steps:
+    - intent: ask_area_distribution
+    - action: utter_area_distribution   
+
+
+  - rule: Explain Discipline Rules
+    steps:
+      - intent: query_discipline_rules
+      - action: utter_discipline_rules
+
+  - rule: Guide on Reporting Violations
+    steps:
+    - intent: report_violation
+    - action: utter_report_violation
+
+  - rule: Describe Penalties
+    steps:
+    - intent: query_penalties
+    - action: utter_penalties  
+
+
+    
+  - rule: Provide Civil Department Info
+    steps:
+    - intent: query_civil_dept
+    - action: utter_civil_dept
+
+  - rule: Identify Civil HOD
+    steps:
+    - intent: query_civil_hod
+    - action: utter_civil_hod_info  # Changed to department-specific action
+
+  - rule: Explain Civil Academics
+    steps:
+    - intent: query_civil_academics
+    - action: utter_civil_academics
+
+  
+
+
+  - rule: Provide EEE Department Info
+    steps:
+    - intent: query_eee_dept
+    - action: utter_eee_dept
+
+  - rule: Identify EEE HOD
+    steps:
+    - intent: query_eee_hod
+    - action: utter_eee_hod_info
+
+  - rule: Share EEE HOD Message
+    steps:
+    - intent: query_eee_hod_message
+    - action: utter_eee_hod_message
+
+  - rule: Explain EEE Academics
+    steps:
+    - intent: query_eee_academics
+    - action: utter_eee_academics
+
+
+
+
+  - rule: Provide Mech Department Info
+    steps:
+    - intent: query_mech_dept
+    - action: utter_mech_dept
+
+  - rule: Identify Mech HOD
+    steps:
+    - intent: query_mech_hod
+    - action: utter_mech_hod_info
+
+  - rule: Explain Mech Academics
+    steps:
+    - intent: query_mech_academics
+    - action: utter_mech_academics
+
+
+
+
+  - rule: Provide ECE Department Info
+    steps:
+    - intent: query_ece_dept
+    - action: utter_ece_dept
+
+  - rule: Identify ECE HOD
+    steps:
+    - intent: query_ece_hod
+    - action: utter_ece_hod_info
+
+  - rule: Explain ECE Academics
+    steps:
+    - intent: query_ece_academics
+    - action: utter_ece_academics  
+  
+  - rule: Share HOD Message
+    steps:
+    - intent: query_ece_hod_message
+    - action: utter_ece_hod_message
+
+
+
+
+  - rule: Provide CSE Department Info
+    steps:
+    - intent: query_cse_dept
+    - action: utter_cse_dept
+
+  - rule: Identify CSE HOD
+    steps:
+    - intent: query_cse_hod
+    - action: utter_cse_hod_info
+
+  - rule: Explain CSE Academics
+    steps:
+    - intent: query_cse_academics
+    - action: utter_cse_academics
+
+  - rule: Share HOD Message
+    steps:
+    - intent: query_cse_hod_message
+    - action: utter_cse_hod_message   
+
+
+
+
+
+  - rule: Provide ACSE Department Info
+    steps:
+    - intent: query_acse_dept
+    - action: utter_acse_dept
+
+  - rule: Identify ACSE HOD
+    steps:
+    - intent: query_acse_hod
+    - action: utter_acse_hod_info
+
+  - rule: Explain ACSE Academics
+    steps:
+    - intent: query_acse_academics
+    - action: utter_acse_academics
+  
+  - rule: Share HOD Message
+    steps:
+    - intent: query_acse_hod_message
+    - action: utter_acse_hod_message
+
+
+
+  - rule: Provide IT Department Info
+    steps:
+    - intent: query_it_dept
+    - action: utter_it_dept
+
+  - rule: Identify IT HOD
+    steps:
+    - intent: query_it_hod
+    - action: utter_it_hod_info
+
+  - rule: Explain IT Academics
+    steps:
+    - intent: query_it_academics
+    - action: utter_it_academics
+
+  - rule: Share HOD Message
+    steps:
+    - intent: query_it_hod_message
+    - action: utter_it_hod_message   
+
+
+
+
+  - rule: Provide ECM Department Info
+    steps:
+    - intent: query_ecm_dept
+    - action: utter_ecm_dept
+
+  - rule: Identify ECM HOD
+    steps:
+    - intent: query_ecm_hod
+    - action: utter_ecm_hod_info
+
+  - rule: Explain ECM Academics
+    steps:
+    - intent: query_ecm_academics
+    - action: utter_ecm_academics
+
+  - rule: Share HOD Message
+    steps:
+    - intent: query_ecm_hod_message
+    - action: utter_ecm_hod_message
+
+
+
+
+
+  - rule: Provide AI&DS Department Info
+    steps:
+    - intent: query_aids_dept
+    - action: utter_aids_dept
+
+  - rule: Identify AI&DS HOD
+    steps:
+    - intent: query_aids_hod
+    - action: utter_aids_hod_info
+
+  - rule: Explain AI&DS Academics
+    steps:
+    - intent: query_aids_academics
+    - action: utter_aids_academics
+
+  - rule: Share HOD Message
+    steps:
+    - intent: query_aids_hod_message
+    - action: utter_aids_hod_message  
+
+
+
+
+
+  - rule: Provide BS&H Department Info
+    steps:
+    - intent: query_bsh_dept
+    - action: utter_bsh_dept
+
+  - rule: Identify BS&H HOD
+    steps:
+    - intent: query_bsh_hod
+    - action: utter_bsh_hod_info
+
+  - rule: Explain BS&H Academics
+    steps:
+    - intent: query_bsh_academics
+    - action: utter_bsh_academics
+
+  - rule: Share HOD Message
+    steps:
+    - intent: query_bsh_hod_message
+    - action: utter_bsh_hod_message     
+
+
+
+
+
+  - rule: Provide MBA Department Info
+    steps:
+    - intent: query_mba_dept
+    - action: utter_mba_dept
+
+  - rule: Identify MBA HOD
+    steps:
+    - intent: query_mba_hod
+    - action: utter_mba_hod_info
+
+  - rule: Explain MBA Academics
+    steps:
+    - intent: query_mba_academics
+    - action: utter_mba_academics
+
+  - rule: Share HOD Message
+    steps:
+    - intent: query_mba_hod_message
+    - action: utter_mba_hod_message  
+
+
+
+
+
+  - rule: Provide MCA Department Info
+    steps:
+    - intent: query_mca_dept
+    - action: utter_mca_dept
+
+  - rule: Identify MCA HOD
+    steps:
+    - intent: query_mca_hod
+    - action: utter_mca_hod_info
+
+  - rule: Explain MCA Academics
+    steps:
+    - intent: query_mca_academics
+    - action: utter_mca_academics
+
+  - rule: Share HOD Message
+    steps:
+    - intent: query_mca_hod_message
+    - action: utter_mca_hod_message
+
+
+
+
+
+
+  - rule: Initial Greeting
+    steps:
+    - intent: greet
+    - action: action_time_based_greet
+
+  - rule: Festival Greeting
+    steps:
+    - intent: greet_festive
+    - action: action_festival_greet
+
+  - rule: Time-Based Greeting
+    steps:
+    - intent: greet_time_based
+    - action: action_time_based_greet
+
+  - rule: Student Identification
+    steps:
+    - intent: identify_student
+    - action: utter_student_welcome
+
+  - rule: Faculty Identification
+    steps:
+    - intent: identify_faculty
+    - action: utter_faculty_welcome
+
+
+
+
+
+
+
+  - rule: Handle admission date inquiry
+    steps:
+    - intent: ask_admission_dates
+    - action: utter_admission_dates
+
+  - rule: Manage management quota questions
+    steps:
+    - intent: ask_management_quota
+    - action: utter_management_quota
+
+  - rule: Address backlog eligibility
+    steps:
+    - intent: ask_backlog_eligibility
+    - action: utter_backlog_policy
+
+
+
+
+
+  - rule: Provide accepted exams
+    steps:
+    - intent: ask_accepted_exams
+    - action: utter_accepted_exams
+
+  - rule: Handle CSE cut-off query
+    steps:
+    - intent: ask_cse_cutoff
+    - action: utter_cse_cutoff
+    
+
+
+
+
+
+  - rule: Respond to annual fee query
+    steps:
+    - intent: ask_annual_fee
+    - action: utter_annual_fee
+
+  - rule: Respond to management quota fee query
+    steps:
+    - intent: ask_mgmt_fee_difference
+    - action: utter_mgmt_fee_info
+
+  - rule: Respond to installment query
+    steps:
+    - intent: ask_fee_installments
+    - action: utter_fee_installments
+
+  - rule: Respond to payment method query
+    steps:
+    - intent: ask_payment_methods
+    - action: utter_payment_methods
+
+  - rule: Respond to late fee penalty query
+    steps:
+    - intent: ask_late_fee_penalty
+    - action: utter_late_fee_penalty
+
+
+
+
+
+  - rule: Respond to scholarship availability
+    steps:
+    - intent: ask_scholarship_availability
+    - action: utter_scholarship_availability
+
+  - rule: Respond to merit scholarship criteria
+    steps:
+    - intent: ask_merit_scholarship_criteria
+    - action: utter_merit_scholarship_criteria
+ 
+
+
+  
+  
+  - rule: Respond to hostel availability
+    steps:
+    - intent: ask_hostel_availability
+    - action: utter_hostel_availability
+
+  - rule: Respond to hostel fee query
+    steps:
+    - intent: ask_hostel_fee
+    - action: utter_hostel_fee
+
+  - rule: Respond to hostel admission criteria
+    steps:
+    - intent: ask_hostel_admission_criteria
+    - action: utter_hostel_admission_criteria
+
+
+
+
+
+
+
+
+  - rule: Handle campus visit request
+    steps:
+    - intent: ask_campus_visit
+    - action: utter_campus_visit_info
+
+  - rule: Provide admission update info
+    steps:
+    - intent: ask_admission_updates
+    - action: utter_admission_updates

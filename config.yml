@@ -1,0 +1,24 @@
+version: "3.1"
+
+language: en
+
+pipeline:
+- name: WhitespaceTokenizer
+- name: CountVectorsFeaturizer
+- name: DIETClassifier
+  epochs: 100
+  constrain_similarities: true
+  model_confidence: softmax
+  confidence_threshold: 0.4
+- name: FallbackClassifier
+  threshold: 0.3
+  ambiguity_threshold: 0.1
+
+policies:
+- name: RulePolicy
+  core_fallback_threshold: 0.3
+  core_fallback_action_name: "action_default_fallback"
+  enable_fallback_prediction: true
+assistant_id: 20250712-215121-chill-store
+
+
