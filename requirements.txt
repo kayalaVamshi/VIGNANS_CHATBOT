@@ -61,7 +61,7 @@ libclang==18.1.1
 locket==1.0.0
 Markdown==3.7
 MarkupSafe==2.1.5
-matplotlib==3.3.4
+matplotlib==3.7.3
 mattermostwrapper==2.2
 msgpack==1.1.1
 multidict==5.2.0
