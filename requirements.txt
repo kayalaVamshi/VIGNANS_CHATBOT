@@ -42,3 +42,4 @@ typing-extensions==4.11.0
 # Optional: For UI like Streamlit or Flask
 # streamlit==1.26.0
 # flask==2.1.3
+
