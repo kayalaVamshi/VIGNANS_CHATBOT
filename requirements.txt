@@ -6,7 +6,7 @@ build
 
 # Rasa dependencies
 rasa==3.6.16
-tensorflow==2.11.1
+tensorflow==2.12.0
 
 # NLP and ML
 scikit-learn==1.0.2
